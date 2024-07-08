@@ -10,6 +10,13 @@
     <atom:link href="http://localhost:1313/pajarracos/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mi Primer Post</title>
+      <link>http://localhost:1313/pajarracos/post/mi-primer-post---copia/</link>
+      <pubDate>Mon, 08 Jul 2024 19:33:51 +0200</pubDate>
+      <guid>http://localhost:1313/pajarracos/post/mi-primer-post---copia/</guid>
+      <description>Mi blog este será el blog de guiller y sus amigos, pero antes tengo que terminar unas cosas de cómo diablos se instalan todas estas cosas</description>
+    </item>
+    <item>
+      <title>Mi Primer Post</title>
       <link>http://localhost:1313/pajarracos/post/mi-primer-post/</link>
       <pubDate>Mon, 08 Jul 2024 19:33:51 +0200</pubDate>
       <guid>http://localhost:1313/pajarracos/post/mi-primer-post/</guid>

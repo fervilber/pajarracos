@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/pajarracos/post/mi-primer-post/</loc>
-    <lastmod>2024-07-08T19:33:51+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/pajarracos/</loc>
-    <lastmod>2024-07-08T19:33:51+02:00</lastmod>
+    <lastmod>2024-07-08T20:33:51+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pajarracos/post/</loc>
+    <lastmod>2024-07-08T20:33:51+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pajarracos/post/mi-primer-post---copia/</loc>
+    <lastmod>2024-07-08T19:33:51+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pajarracos/post/mi-primer-post/</loc>
     <lastmod>2024-07-08T19:33:51+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pajarracos/categories/</loc>
