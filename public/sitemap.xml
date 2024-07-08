@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/pajarracos/</loc>
+    <loc>https://fervilber.github.io/pajarracos/</loc>
+    <lastmod>2024-07-08T20:24:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fervilber.github.io/pajarracos/post/</loc>
+    <lastmod>2024-07-08T20:24:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fervilber.github.io/pajarracos/post/2024-07-08_hola./</loc>
     <lastmod>2024-07-08T20:33:51+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pajarracos/post/</loc>
-    <lastmod>2024-07-08T20:33:51+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pajarracos/post/mi-primer-post---copia/</loc>
+    <loc>https://fervilber.github.io/pajarracos/post/mi-primer-post/</loc>
     <lastmod>2024-07-08T19:33:51+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pajarracos/post/mi-primer-post/</loc>
-    <lastmod>2024-07-08T19:33:51+02:00</lastmod>
+    <loc>https://fervilber.github.io/pajarracos/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/pajarracos/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/pajarracos/tags/</loc>
+    <loc>https://fervilber.github.io/pajarracos/tags/</loc>
   </url>
 </urlset>

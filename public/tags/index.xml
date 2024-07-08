@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on MY flamante blog</title>
-    <link>http://localhost:1313/pajarracos/tags/</link>
+    <link>https://fervilber.github.io/pajarracos/tags/</link>
     <description>Recent content in Tags on MY flamante blog</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <atom:link href="http://localhost:1313/pajarracos/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fervilber.github.io/pajarracos/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
