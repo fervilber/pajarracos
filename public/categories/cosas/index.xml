@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cosas on MY flamante blog</title>
+    <link>https://fervilber.github.io/pajarracos/categories/cosas/</link>
+    <description>Recent content in Cosas on MY flamante blog</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 08 Jul 2024 20:33:51 +0200</lastBuildDate>
+    <atom:link href="https://fervilber.github.io/pajarracos/categories/cosas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hola</title>
+      <link>https://fervilber.github.io/pajarracos/post/2024-07-08_hola/</link>
+      <pubDate>Mon, 08 Jul 2024 20:33:51 +0200</pubDate>
+      <guid>https://fervilber.github.io/pajarracos/post/2024-07-08_hola/</guid>
+      <description>Blog con Hugo y GitHub Pages Prueba para meter una imagen en el blog:ç&#xA;Introducción Se puede crear un blog y publicarlo con GitHub Pages usando el generador estático Hugo. La elección de Hugo está relacionada con un proyecto que mezcla GitHub Pages, desarrollo Front-end y Georges Méliès.&#xA;Publicación en GitHub Pages La estructura del blog se crea localmente y luego se sube a GitHub. Se habilita GitHub Pages en el directorio /docs, cambiando config.</description>
+    </item>
+  </channel>
+</rss>

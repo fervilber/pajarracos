@@ -6,6 +6,14 @@
     <description>Recent content in Tags on MY flamante blog</description>
     <generator>Hugo</generator>
     <language>es</language>
+    <lastBuildDate>Mon, 08 Jul 2024 20:33:51 +0200</lastBuildDate>
     <atom:link href="https://fervilber.github.io/pajarracos/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>https://fervilber.github.io/pajarracos/tags/hugo/</link>
+      <pubDate>Mon, 08 Jul 2024 20:33:51 +0200</pubDate>
+      <guid>https://fervilber.github.io/pajarracos/tags/hugo/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
