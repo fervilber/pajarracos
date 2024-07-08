@@ -2,31 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MY flamante blog</title>
-    <link>https://fervilber.github.io/pajarracos/</link>
+    <link>http://localhost:1313/pajarracos/</link>
     <description>Recent content on MY flamante blog</description>
     <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate>Mon, 08 Jul 2024 20:33:51 +0200</lastBuildDate>
-    <atom:link href="https://fervilber.github.io/pajarracos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/pajarracos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hola</title>
-      <link>https://fervilber.github.io/pajarracos/post/2024-07-08_hola/</link>
+      <link>http://localhost:1313/pajarracos/post/2024-07-08_hola/</link>
       <pubDate>Mon, 08 Jul 2024 20:33:51 +0200</pubDate>
-      <guid>https://fervilber.github.io/pajarracos/post/2024-07-08_hola/</guid>
-      <description>Blog con Hugo y GitHub Pages Prueba para meter una imagen en el blog:ç&#xA;Introducción Se puede crear un blog y publicarlo con GitHub Pages usando el generador estático Hugo. La elección de Hugo está relacionada con un proyecto que mezcla GitHub Pages, desarrollo Front-end y Georges Méliès.&#xA;Publicación en GitHub Pages La estructura del blog se crea localmente y luego se sube a GitHub. Se habilita GitHub Pages en el directorio /docs, cambiando config.</description>
+      <guid>http://localhost:1313/pajarracos/post/2024-07-08_hola/</guid>
+      <description>Blog con Hugo y GitHub Pages Prueba para meter una imagen en el blog:&#xA;Introducción Se puede crear un blog y publicarlo con GitHub Pages usando el generador estático Hugo. La elección de Hugo está relacionada con un proyecto que mezcla GitHub Pages, desarrollo Front-end y Georges Méliès.&#xA;Publicación en GitHub Pages La estructura del blog se crea localmente y luego se sube a GitHub. Se habilita GitHub Pages en el directorio /docs, cambiando config.</description>
     </item>
     <item>
       <title>Mi Primer Post</title>
-      <link>https://fervilber.github.io/pajarracos/post/mi-primer-post/</link>
+      <link>http://localhost:1313/pajarracos/post/mi-primer-post/</link>
       <pubDate>Mon, 08 Jul 2024 19:33:51 +0200</pubDate>
-      <guid>https://fervilber.github.io/pajarracos/post/mi-primer-post/</guid>
+      <guid>http://localhost:1313/pajarracos/post/mi-primer-post/</guid>
       <description>Mi blog este será el blog de guiller y sus amigos, pero antes tengo que terminar unas cosas de cómo diablos se instalan todas estas cosas</description>
     </item>
     <item>
+      <title>prueba de imagenes</title>
+      <link>http://localhost:1313/pajarracos/post/2024-07-01_imagen/</link>
+      <pubDate>Mon, 01 Jul 2024 20:33:51 +0900</pubDate>
+      <guid>http://localhost:1313/pajarracos/post/2024-07-01_imagen/</guid>
+      <description>Como insertar una imagen en el blog Esta es la primera prueba de blog estructurado en carpetas. Para meter una imagen voy a probar varias cosas&#xA;Otra forma en la carpeta static&#xA;eso es todo.</description>
+    </item>
+    <item>
       <title>Instrucciones</title>
-      <link>https://fervilber.github.io/pajarracos/post/2024-07-06_instrucciones/</link>
-      <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
-      <guid>https://fervilber.github.io/pajarracos/post/2024-07-06_instrucciones/</guid>
+      <link>http://localhost:1313/pajarracos/post/2024-07-06_instrucciones/</link>
+      <pubDate>Tue, 14 May 2024 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/pajarracos/post/2024-07-06_instrucciones/</guid>
       <description>Instrucciones para empezar con el blog Este es un post especial, porque quiero probar a ver qué diablos pasa cuando renombro y canto con las sirenas en la playa de san peter. Nada y la realidad es que nada de esto sería real, si no hubiera grifos volando ahora ismo por mi ventana.&#xA;cómo hacer el blog con HUGO en github pages Bueno, la cosa siempre es más dificil de lo que parece, pero voy a intentar poner todo el proceso claro.</description>
     </item>
   </channel>
