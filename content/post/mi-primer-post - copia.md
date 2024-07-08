@@ -1,7 +1,7 @@
 +++
 title = 'Mi Primer Post'
 date = 2024-07-08T19:33:51+02:00
-draft = false
+draft = true
 +++
 
 ## Mi blog
