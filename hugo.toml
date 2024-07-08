@@ -1,0 +1,26 @@
+baseURL = 'https://fervilber.github.io/pajarracos/'
+languageCode = 'es'
+title = 'MY flamante blog'
+theme = 'Mainroad'
+
+[Author]
+  name = "F.Vil"
+  bio = "guillermo Villalba loco de atar."
+
+[Params]
+  description = "Hablamos de ti"
+  copyright = "G.Vil"
+  opengraph = true
+  schema = true # Enable Schema
+  twitter_cards = false
+  readmore = false # Show "Read more" button in list if true
+  authorbox = true
+  toc = true # Enable Table of Contents
+  pager = true
+
+[Params.sidebar]
+  home = "right"   # Configure layout for home page
+  list = "right"   # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "social", "taglist", "languages"]
