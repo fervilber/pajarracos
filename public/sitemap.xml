@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/pajarracos/categories/</loc>
+    <loc>https://fervilber.github.io/pajarracos/categories/</loc>
     <lastmod>2024-07-08T20:33:51+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pajarracos/categories/cosas/</loc>
+    <loc>https://fervilber.github.io/pajarracos/categories/cosas/</loc>
     <lastmod>2024-07-08T20:33:51+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pajarracos/post/2024-07-08_hola/</loc>
+    <loc>https://fervilber.github.io/pajarracos/post/2024-07-08_hola/</loc>
     <lastmod>2024-07-08T20:33:51+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pajarracos/tags/hugo/</loc>
+    <loc>https://fervilber.github.io/pajarracos/tags/hugo/</loc>
     <lastmod>2024-07-08T20:33:51+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pajarracos/</loc>
+    <loc>https://fervilber.github.io/pajarracos/</loc>
     <lastmod>2024-07-08T20:33:51+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pajarracos/post/</loc>
+    <loc>https://fervilber.github.io/pajarracos/post/</loc>
     <lastmod>2024-07-08T20:33:51+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pajarracos/tags/</loc>
+    <loc>https://fervilber.github.io/pajarracos/tags/</loc>
     <lastmod>2024-07-08T20:33:51+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pajarracos/post/mi-primer-post/</loc>
+    <loc>https://fervilber.github.io/pajarracos/post/mi-primer-post/</loc>
     <lastmod>2024-07-08T19:33:51+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pajarracos/tags/imagenes/</loc>
-    <lastmod>2024-07-01T20:33:51+09:00</lastmod>
+    <loc>https://fervilber.github.io/pajarracos/tags/imagenes/</loc>
+    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pajarracos/post/2024-07-01_imagen/</loc>
-    <lastmod>2024-07-01T20:33:51+09:00</lastmod>
+    <loc>https://fervilber.github.io/pajarracos/post/2024-07-01_imagen/</loc>
+    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pajarracos/post/2024-07-06_instrucciones/</loc>
+    <loc>https://fervilber.github.io/pajarracos/post/2024-07-06_instrucciones/</loc>
     <lastmod>2024-05-14T07:07:07+01:00</lastmod>
   </url>
 </urlset>

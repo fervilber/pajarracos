@@ -1,7 +1,7 @@
 +++
 title = 'prueba de imagenes'
-date = 2024-07-01T20:33:51+09:00
-thumbnail = "logos.jpg"
+date = 2024-07-01
+thumbnail = 'post/2024-07-01_imagen/logos.jpg'
 categories = ["cosas"]
 tags = ["imagenes"]
 draft = false
@@ -17,6 +17,9 @@ Para meter una imagen voy a probar varias cosas
 
 Otra forma en la carpeta static
 
-![gritos](../../../assets/img/Mona_Lisa.jpg)
+![gritos](../../img/Mona_Lisa.jpg)
 
 eso es todo.
+Parece que no hay forma de que salgan las imagenes.
+
+Tengo diferentes formas.
