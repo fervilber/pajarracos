@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on MY flamante blog</title>
-    <link>https://fervilber.github.io/pajarracos/tags/</link>
-    <description>Recent content in Tags on MY flamante blog</description>
+    <title>Tags on Pajarracos</title>
+    <link>http://localhost:1313/pajarracos/tags/</link>
+    <description>Recent content in Tags on Pajarracos</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 08 Jul 2024 20:33:51 +0200</lastBuildDate>
-    <atom:link href="https://fervilber.github.io/pajarracos/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/pajarracos/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo</title>
-      <link>https://fervilber.github.io/pajarracos/tags/hugo/</link>
-      <pubDate>Mon, 08 Jul 2024 20:33:51 +0200</pubDate>
-      <guid>https://fervilber.github.io/pajarracos/tags/hugo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Imagenes</title>
-      <link>https://fervilber.github.io/pajarracos/tags/imagenes/</link>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://fervilber.github.io/pajarracos/tags/imagenes/</guid>
+      <link>http://localhost:1313/pajarracos/tags/hugo/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pajarracos/tags/hugo/</guid>
       <description></description>
     </item>
   </channel>

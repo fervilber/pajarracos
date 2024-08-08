@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Imagenes on MY flamante blog</title>
-    <link>https://fervilber.github.io/pajarracos/tags/imagenes/</link>
-    <description>Recent content in Imagenes on MY flamante blog</description>
+    <title>Imagenes on Pajarracos</title>
+    <link>http://localhost:1313/pajarracos/tags/imagenes/</link>
+    <description>Recent content in Imagenes on Pajarracos</description>
     <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://fervilber.github.io/pajarracos/tags/imagenes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/pajarracos/tags/imagenes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>prueba de imagenes</title>
-      <link>https://fervilber.github.io/pajarracos/post/2024-07-01_imagen/</link>
+      <link>http://localhost:1313/pajarracos/post/2024-07-01_imagen/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://fervilber.github.io/pajarracos/post/2024-07-01_imagen/</guid>
+      <guid>http://localhost:1313/pajarracos/post/2024-07-01_imagen/</guid>
       <description>Como insertar una imagen en el blog Esta es la primera prueba de blog estructurado en carpetas. Para meter una imagen voy a probar varias cosas&#xA;Otra forma en la carpeta static&#xA;eso es todo. Parece que no hay forma de que salgan las imagenes.&#xA;Tengo diferentes formas.</description>
     </item>
   </channel>

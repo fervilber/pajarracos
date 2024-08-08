@@ -1,15 +1,15 @@
 baseURL = 'https://fervilber.github.io/pajarracos/'
 languageCode = 'es'
-title = 'MY flamante blog'
+title = 'Pajarracos'
 theme = 'Mainroad'
 
 [Author]
-  name = "G.Vil"
-  bio = "Willy Nelson. El LocoCo"
+  name = "F.VilBer"
+  bio = "Ciudadano Vil"
   avatar = "img/male-avatar.png"
 
 [Params]
-  description = "Hablamos de ti"
+  description = "bitácora de proyectos e ideas de pájaro"
   copyright = "G.Vil"
   opengraph = true
   schema = true # Enable Schema
@@ -30,18 +30,17 @@ theme = 'Mainroad'
   widgets = ["search", "recent", "categories", "social", "taglist", "languages"]
 
   [Params.logo]
-  image = "img/Mona_Lisa.jpg" # Logo image. Path relative to "static"
-  subtitle = "Just another site" # Logo subtitle
+  image = "img/pajarracos1.jpg" # Logo image. Path relative to "static"
+  subtitle = "Bitácora de proyectos e ideas" # Logo subtitle
 
   [Params.widgets.social]
   cached = false # activate cache if true
   # Enable parts of social widget
-  facebook = "username"
   twitter = "@enRdados"
-  linkedin = "username"
-  telegram = "username"
+  #linkedin = "username"
+  #telegram = "username"
   github = "fervilber"
-  email = "example@example.com"
+  email = "fervilber@gamil.com"
 
   # Custom social links
 [[Params.widgets.social.custom]]
