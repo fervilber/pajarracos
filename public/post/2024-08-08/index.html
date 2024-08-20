@@ -9,8 +9,8 @@
 		<meta property="og:url" content="http://localhost:1313/pajarracos/post/2024-08-08/">
   <meta property="og:site_name" content="Pajarracos">
   <meta property="og:title" content="Instrucciones para crear un blog 2">
-  <meta property="og:description" content="Parte 2 Continuamos con la creación de un blog que iniciamos en el post anterior, donde vimos como instalar HUGO y cómo empezar a editar nuestro blog en local en las carpetas y ficheros de nuestro PC. Ahora toca subirlo a la web y para eso usaremos gitHub.
-Imagina que ya has toqueteado un poco con el blog en local, que has hecho varios post de prueba en la carpeta content y que cuando hacer en un terminal hugo server de tu blog se ve todo bien en el navegador.">
+  <meta property="og:description" content="Parte 2 Continuamos con las instrucciones para crear un blog moderno y rápido con tecnología actual, que iniciamos en el post anterior, donde vimos como instalar HUGO y cómo empezar a editar nuestro blog en local en las carpetas y ficheros de nuestro PC. Ahora toca subirlo a la web y para eso usaremos gitHub.
+Imagino que ya has tocado un poco con el blog en local, que has hecho varios post de prueba en la carpeta content y que cuando haces en un terminal hugo server de tu blog se ve todo bien en el navegador.">
   <meta property="og:locale" content="es">
   <meta property="og:type" content="article">
     <meta property="article:section" content="post">
@@ -19,11 +19,11 @@ Imagina que ya has toqueteado un poco con el blog en local, que has hecho varios
 
 		
   <meta itemprop="name" content="Instrucciones para crear un blog 2">
-  <meta itemprop="description" content="Parte 2 Continuamos con la creación de un blog que iniciamos en el post anterior, donde vimos como instalar HUGO y cómo empezar a editar nuestro blog en local en las carpetas y ficheros de nuestro PC. Ahora toca subirlo a la web y para eso usaremos gitHub.
-Imagina que ya has toqueteado un poco con el blog en local, que has hecho varios post de prueba en la carpeta content y que cuando hacer en un terminal hugo server de tu blog se ve todo bien en el navegador.">
+  <meta itemprop="description" content="Parte 2 Continuamos con las instrucciones para crear un blog moderno y rápido con tecnología actual, que iniciamos en el post anterior, donde vimos como instalar HUGO y cómo empezar a editar nuestro blog en local en las carpetas y ficheros de nuestro PC. Ahora toca subirlo a la web y para eso usaremos gitHub.
+Imagino que ya has tocado un poco con el blog en local, que has hecho varios post de prueba en la carpeta content y que cuando haces en un terminal hugo server de tu blog se ve todo bien en el navegador.">
   <meta itemprop="datePublished" content="2024-08-08T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-08-08T00:00:00+00:00">
-  <meta itemprop="wordCount" content="789">
+  <meta itemprop="wordCount" content="1139">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -95,35 +95,42 @@ Imagina que ya has toqueteado un poco con el blog en local, que has hecho varios
   <ul>
     <li><a href="#hazte-una-cuenta-en-github">Hazte una cuenta en github.</a></li>
     <li><a href="#publicar-el-sitio-en-github">Publicar el sitio en github</a></li>
-    <li><a href="#actions-en-github">actions en github</a></li>
+    <li><a href="#github-actions">Github actions</a></li>
+    <li><a href="#url-pública-del-blog">url pública del blog</a></li>
   </ul>
 </nav>
 	</div>
 </div><div class="content post__content clearfix">
 			<h1 id="parte-2">Parte 2</h1>
-<p>Continuamos con la creación de un blog que iniciamos en el post anterior, donde vimos como instalar HUGO y cómo empezar a editar nuestro blog en local en las carpetas y ficheros de nuestro PC. Ahora toca subirlo a la web y para eso usaremos gitHub.</p>
-<p>Imagina que ya has toqueteado un poco con el blog en local, que has hecho varios post de prueba en la carpeta content y que cuando hacer en un terminal <code>hugo server</code> de tu blog se ve todo bien en el navegador. entonces ya es hora de subirlo a al web y de que otros puedan verlo.</p>
+<p>Continuamos con las instrucciones para crear un blog moderno y rápido con tecnología actual, que iniciamos en el post anterior, donde vimos como instalar HUGO y cómo empezar a editar nuestro blog en local en las carpetas y ficheros de nuestro PC. Ahora toca subirlo a la web y para eso usaremos <strong>gitHub</strong>.</p>
+<p>Imagino que ya has tocado un poco con el blog en local, que has hecho varios post de prueba en la carpeta <em>content</em> y que cuando haces en un terminal <code>hugo server</code> de tu blog se ve todo bien en el navegador. Entonces ya es hora de subirlo a al web para que sea público.</p>
 <h2 id="hazte-una-cuenta-en-github">Hazte una cuenta en github.</h2>
-<p>Lo primero que tienes que hacer es abrirte una cuenta en <a href="https://github.com/">github</a>, es muy facil, vete a su web y date de alta con un numbre de usuario y uina contrasela.</p>
-<p>La próxima vez que inicies en su web directamente ingresa el <em>Login</em> y ya tienes cuenta.</p>
+<p>Lo primero que tienes que hacer es abrirte una cuenta en <a href="https://github.com/">github</a>, si no la tienes ya. Es muy fácil, vete a su web y date de alta con un numbre de usuario y una contraseña.</p>
 <h2 id="publicar-el-sitio-en-github">Publicar el sitio en github</h2>
-<p>Una vez en github tenemos que crear un repo, que es como el directorio en el servidor que contandrá una copia de lo que tenemos en local. Para ello vamos a nuestra pagina de inicio de github y pinchamos en el boton de color verde <strong>New</strong> que nos crear un nuevo repositorio y le ponemos el nombre del blog en mi caso <strong>pajarracos</strong> jeje.</p>
-<p>una vez creado no hacemos nada, pues ahora lo que vamso a hacer es <em>enlazar</em> el directorio local con este remoto que acabamos de crear en github.</p>
-<p>Para esto nos vamos a nuestro directorio en la PC local y enlazamos escribiendo este código en el terminal, pero OJO debes estar en la carpeta padre del blog:</p>
+<p>Una vez en github tenemos que crear un repo, que es como el directorio pero en el servidor que contendrá una copia de lo que tenemos en local. Para ello vamos a nuestra página de inicio de github y pinchamos en el boton de color verde <strong>New</strong> que nos crear un nuevo repositorio y le ponemos el nombre del blog en mi caso <strong>pajarracos</strong>.</p>
+<p>Una vez creado no hacemos nada más allí, pues lo que toca es <em>enlazar</em> el directorio local con este remoto que acabamos de crear en github.
+Bueno tenemos que copiar la dirección del repo, que se puede hacer directamente en uno de los botones que da github, será algo así: <code>https://github.com/fervilber/pajarracos.git</code>,en mi caso es esta.</p>
+<p>Para esto nos vamos a nuestro directorio en el PC local y enlazamos escribiendo este código en el <em>terminal</em>, pero OJO!! debes estar en la carpeta padre del blog la que contiene todo y luego haces esto que enlazará el directorio local con el remoto.</p>
+<p>Sustituye la dirección url de origen por la tuya para enlazar.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git status
 </span></span><span style="display:flex;"><span>git add . 
 </span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Nuevo blog&#34;</span>
 </span></span><span style="display:flex;"><span>git remote add origin https://github.com/fervilber/pajarracos.git
 </span></span><span style="display:flex;"><span>git push -u origin master
-</span></span></code></pre></div><p>Cuando hacemos cambios en local, siempre antes haremos un git pull para enlazar con github, despues hacemos los cambios y tras eso hay que hacer otra vez un git add ., y commit u por ultimo el push</p>
-<p>Hugo es un publicador estático, es decir que antes de publicar la versión definitiva en la web hay que fabricar todas las páginas, y que estén disponibles en la carpeta public. Esto lo hacemos poniendo en el terminal el comando <code>hugo</code> que crear el blog completo que se publica en la carpeta public.</p>
-<p>Esto se llama deploy y cuando usamos github debe hacerse usa.</p>
-<p>En github se debe hacer con actions</p>
-<h2 id="actions-en-github">actions en github</h2>
-<p>para que github publique esta web hay que hacer un deploy y antes ir a configuración: pages y cambiar  deploy from the branch a <strong>GitHub Actions</strong>
-<img src="https://images.prismic.io/staticmania/60bcb6cc-bed4-4cce-bbae-ef42590c7ad4_Screenshot+2023-09-04+160103.png?auto=compress,format" alt=""></p>
-<p>esto lo explica bien aquí: <a href="https://staticmania.com/blog/deploy-your-hugo-website-on-github-pages">https://staticmania.com/blog/deploy-your-hugo-website-on-github-pages</a></p>
-<p>Al hacer esto el mismo github te recomienda unas actions justo debajo, si no está Hugo, hay que buscarla en la opcion que dan. y al final esto crea una nueva carpeta en el directorio de trabajo llamada  <code>.github/workflows</code> donde crea un fichero llamado <code>hugo.yml</code> . el que me ha creado a mi es este y funciona:</p>
+</span></span></code></pre></div><p>Con esto ya están vinculadas las cuentas local y remoto, y los cambios que vayamos haciendo en el PC los podemos subir y actualizar en remoto cuando queramos. Por ejemplo, si editamos uno de los post o creamnos una entrada nueva en local y la damos por válida, debemos volver a terminal y poner lo siguiente:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add . 
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;edito la entrada 1 y corrijo errores&#34;</span>
+</span></span><span style="display:flex;"><span>git push
+</span></span></code></pre></div><p>Esta es la forma de trabajar con git, que primero añade a la lista de actualizacion todos los cambios con el comando <code>git add .</code>.
+Después crea un commit y con el argumento -m le podemos dar una escueta frase para saber qué hemos actualizado: <code>git coomit -m &quot;lo que sea&quot;</code>
+Finalmento el comando <code>git push</code> sube al servidor los cambios.</p>
+<p>Otro comando interesante es <code>git pull</code> que nos diría si lo que tenemos en local está actualizado con el servidor, es decir bajaría lo del servidor a local, pero ojo  si has heho cambios antes, comprueba que está actualizados con <code>git status</code>.</p>
+<h2 id="github-actions">Github actions</h2>
+<p>Hugo es un publicador estático, es decir que antes de publicar la versión definitiva en la web hay que fabricar todas las páginas estáticas, y que estén disponibles en la carpeta public del servidor. Esto lo hacemos poniendo en el terminal el comando <code>hugo</code> que crear el blog completo que se publica en la carpeta public. A esto se le llama hacer el despliegue o deploy del proyecto, que genera en la carpeta public todo el html que forma la web.</p>
+<p>Para que todo esto sea automático hay que hacer uso de las <em>github actions</em>, de esta forma cada vez que actualicemos el blog con un comando <code>commit</code> y el posterior <code>push</code> se crearán una serie de órdenes en el servidor para desplegar la web completa.</p>
+<p>Para que github lo haga hay que dirigirse en la web de github del proyecto en el apartado settings o <em>configuración</em>: &ndash;&gt; pages y cambiar lo que pone de <em>deploy from the branch</em> a <strong>GitHub Actions</strong></p>
+<p><img src="https://images.prismic.io/staticmania/60bcb6cc-bed4-4cce-bbae-ef42590c7ad4_Screenshot+2023-09-04+160103.png?auto=compress,format" alt=""></p>
+<p>Al hacer esto el mismo github te recomienda unas <em>actions</em> justo debajo, y en una de ellas debe poner HUGO. Si no aparece la tienes que buscar en el espacio del buscador que aparece y poner HUGO y seguir los pasos que indica. Este proceso creará una nueva carpeta en el directorio de trabajo llamada <code>.github/workflows</code> donde crea un fichero llamado <code>hugo.yml</code> el que me ha creado a mi es este y funciona bien:</p>
 <pre tabindex="0"><code># Sample workflow for building and deploying a Hugo site to GitHub Pages
 name: Deploy Hugo site to Pages
 
@@ -198,7 +205,11 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-</code></pre><p>cada vez que hagamos un commit se ejecutará automáticamente esta action que podemos ver en la pestalña correspondiente y si falla podemos leer por qué. A mi me ha fallado varias veces hasta que he actualizado el theme de HUGO a la ultima versión.</p>
+</code></pre><h2 id="url-pública-del-blog">url pública del blog</h2>
+<p>Con esto ya tenemos el blog preparado y listo, si vas a github <em>settings</em> &ndash;&gt; <em>pages</em> verás que github te dice que puedes ver este blog en una direccción y que te daun botón de enlace directo.</p>
+<p>Ya tan solo tienes que dar esa dirección a quien quieras para que puedan verlo, y si tienes un dominio, puedes redireccionar este dominio a la web creada, pero eso ya lo veremos otro día.</p>
+<p>Ahora lo que toca es ampliar el blog continuar creando contenido y subirlo para coger práctica con el sistema y has conseguido un blog moderno, basado en HUGO uno de los sistemas más rápidos, y publivcarlo a todo el mundo sin gastar un solo euro, tan solo tiempo para enterarte de cómo fucniona esto.</p>
+<p>Nos vemos un saludo!!!</p>
 
 		</div>
 	</article>
@@ -277,7 +288,7 @@ jobs:
 
 		
 		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="Youtube"  rel="noopener noreferrer" href="https://youtube.com/user/username" target="_blank">
+			<a class="widget-social__link widget__link btn" title="Youtube"  rel="noopener noreferrer" href="https://youtube.com/user/fervilber" target="_blank">
 				<span>Youtube</span>
 			</a>
 		</div>

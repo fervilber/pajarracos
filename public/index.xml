@@ -13,7 +13,7 @@
       <link>http://localhost:1313/pajarracos/post/2024-08-08/</link>
       <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/pajarracos/post/2024-08-08/</guid>
-      <description>Parte 2 Continuamos con la creación de un blog que iniciamos en el post anterior, donde vimos como instalar HUGO y cómo empezar a editar nuestro blog en local en las carpetas y ficheros de nuestro PC. Ahora toca subirlo a la web y para eso usaremos gitHub.&#xA;Imagina que ya has toqueteado un poco con el blog en local, que has hecho varios post de prueba en la carpeta content y que cuando hacer en un terminal hugo server de tu blog se ve todo bien en el navegador.</description>
+      <description>Parte 2 Continuamos con las instrucciones para crear un blog moderno y rápido con tecnología actual, que iniciamos en el post anterior, donde vimos como instalar HUGO y cómo empezar a editar nuestro blog en local en las carpetas y ficheros de nuestro PC. Ahora toca subirlo a la web y para eso usaremos gitHub.&#xA;Imagino que ya has tocado un poco con el blog en local, que has hecho varios post de prueba en la carpeta content y que cuando haces en un terminal hugo server de tu blog se ve todo bien en el navegador.</description>
     </item>
     <item>
       <title>Instrucciones para crear un blog 1</title>

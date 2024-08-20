@@ -45,7 +45,7 @@ theme = 'Mainroad'
   # Custom social links
 [[Params.widgets.social.custom]]
   title = "Youtube"
-  url = "https://youtube.com/user/username"
+  url = "https://www.youtube.com/@fervil846"
   #icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
   rel = "noopener noreferrer" # Set to false to remove the rel attribute
 
