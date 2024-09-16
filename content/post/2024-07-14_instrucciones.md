@@ -1,6 +1,8 @@
 +++
 title = 'Instrucciones para crear un blog 1'
 date = 2024-07-14
+categories = ["blog"]
+tags = ["Hugo", "blog"]
 draft = false
 +++
 
@@ -143,15 +145,21 @@ En el terminal dice la dirección para ver la web en algún explorardor como Chr
 ## Mi primer post
 Ya hemos visto que funciona en local, abrimos firefox y ponemos la url que nos da en terminal y vemos el blog, pues ya lo tenemos listo. Para empezar puedes abrir directamenten los ficheros de ejemplo que hemos copiado y editarlos o crer un nuevo en la carpeta "content/"
 
-Si queremos ir a lo fácil, lo podemos hacer con código poniendo esto:
+Si queremos ir a lo fácil, para crear el primer post escribimos esto en terminal:
 
 `hugo new content content/post/mi-primer-post.md`
 
-Con esto nos crea un fichero llamado *"mi-primer-post.md"* en el directorio *post* dentro de *content* que es donde debemos ponerlos.
+Con esto nos crea un fichero llamado *"mi-primer-post.md"* en el directorio *post* dentro del directorio *content* que es donde debemos ponerlos.
 
 Ahora en cualquier editor de texto escribiremos texto en *markdown* y automáticamente lo veremos en el explorador web en la dirección local `http://localhost:1313/mi_nuevo_blog/`. Podemo editarlo y verlo al mismo tiempo si ponemos las ventanas en paralelo, aunque yo por ejemplo suelo usar Visual Studio para esto, pero es tan simple que no haría falta.
 
 Para parar el servidor basta con pulsar *control + c* en terminal.
+
+### Otra forma de crear un post
+Si ya tienes algun post escrito quizás e smás fácil directamente copiar y pegar el fichero de plantilla de post, o el anterior, y ya en el editor de texto modificarlo.
+Una buena opción es dejar una plantilla hecha con el formato de post básico y definirla en el encabezado como _draft = true_. Así siempore lo tendremos en la carpeta post disponible y basta con copiarlo, pegarlo y cambiarle de nombre para el nuevo post. 
+
+Para los nombres yo particularmente prefiero nombrarlos con la fecha por delante así quedan ordenados por defecto por nombre en el directorio. 
 
 ## Formato de un post
 

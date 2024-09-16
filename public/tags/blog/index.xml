@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on Pajarracos</title>
-    <link>http://localhost:1313/pajarracos/tags/hugo/</link>
-    <description>Recent content in Hugo on Pajarracos</description>
+    <title>Blog on Pajarracos</title>
+    <link>http://localhost:1313/pajarracos/tags/blog/</link>
+    <description>Recent content in Blog on Pajarracos</description>
     <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate>Thu, 08 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/pajarracos/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/pajarracos/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Instrucciones para crear un blog 2</title>
       <link>http://localhost:1313/pajarracos/post/2024-08-08/</link>
@@ -21,13 +21,6 @@
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/pajarracos/post/2024-07-14_instrucciones/</guid>
       <description>Empezar un blog completamente gratis. Parte 1 Este es un post especial, porque quiero empezar un blog desde cero usando las herramientas más modernas y actuales. El objetivo es montar la estructura de blog rápidamente, y que lo montemos sin gastar un euro en servidores usando solo cosas que se encuentran en la comunidad web desde hace años, que además usa la última tecnología, la más rápida y como veremos una de las formas más sencillas de empezar a crear contenido web y hacernos un nombre.</description>
-    </item>
-    <item>
-      <title>El primer paso</title>
-      <link>http://localhost:1313/pajarracos/post/2024-07-08_01/</link>
-      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pajarracos/post/2024-07-08_01/</guid>
-      <description>Empezamos Hoy empezamos un nuevo blog, al que vamos a llamar &amp;ldquo;pajarracos&amp;rdquo;, en honor a mis 4 hijos que aún siguen en el nido, pero para los que debo dejar muchas lecciones. En este Blog voy a intentar ordenar muchas ideas y proyectos que tengo en mente, el tener que escribir sobre ellos me ayuda a fijar ideas y centrarme para ir resolviendo los que quedan pendientes.&#xA;Trataremos muchos temas, o esa es la iea inicial.</description>
     </item>
   </channel>
 </rss>

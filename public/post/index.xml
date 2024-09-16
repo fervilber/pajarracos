@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Pajarracos</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 08 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/pajarracos/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Un RAG con python</title>
+      <link>http://localhost:1313/pajarracos/post/2024-08-21_rag/</link>
+      <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pajarracos/post/2024-08-21_rag/</guid>
+      <description>Hacer un RAG local Vamos a empezar este blog, y llenarlo de cosas interesantes&amp;hellip;.la idea primera es dejar constancia de los pasos para crear proyectos chulos y este es uno que llevo tiempo detrás, de hecho ya hice alguna cosilla super chula el año pasado cuando empezó todo esto de la IA. entonces fue mucho más dificil, no había tanta información, ni tanto youtuber creando contenido de esto, y aún así se podían hacer cosillas curiosas.</description>
+    </item>
     <item>
       <title>Instrucciones para crear un blog 2</title>
       <link>http://localhost:1313/pajarracos/post/2024-08-08/</link>
