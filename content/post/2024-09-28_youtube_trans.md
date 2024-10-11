@@ -13,8 +13,8 @@ Eso de tener el video en el disco duro está bien, pero últimamente estoy inten
 Vamos a la faena, lo que busco es descargar las transcripciones de videos seleccionados de Youtube y para eso hay al menos dos formas:
 
  1. [instalar un pluggin en el navegador](#instalar-un-pluggin-en-el-navegador)
- 2.[ mediante código python](#obtener-la-transcripción-por-código)
-
+ 2. [mediante código python](#obtener-la-transcripción-por-código)
+ 
 
 # Instalar un pluggin en el navegador
 En Chrome hay algunas extensiones como la llamada "*YouTube Summary with ChatGPT & Claude*" que es muy útil y te permite obtener directamente la transcripción desde el navegador, y si lo conectas a tu cuenta e OpenAI o de Claude de Ahthropic puede hasta hacer un resumen de dicha transcripción con lo que se le puede sacar jugo.
@@ -112,10 +112,9 @@ def procesar_video_youtube(url):
 # Ejemplo de uso
 url_video = "https://youtu.be/YL0xdkAC5eY?si=sAB7avi_3er1ORGV"
 procesar_video_youtube(url_video)
-
 ```
 
-## Descargar transcripcion de una lista de videos
+## Descargar transcripción de una lista de videos
 Lo bueno del código es que podemos automatizar esto y descargar de una tirada toda una lista de videos de youtube. esto como os dije me viene genial para crear conocimiento sobre un tema específico, no tengo más que pasar la url de una lista que contenga videos de la materia y esperar unos segundos. 
 El script que he hecho guarda cada lista en una subcarpeta para que no se mezclen ya que son muchos y les pone a los ficheros de texto el nombre del título del video, quitando algunos símbolos que pueden dar error.
 
@@ -249,6 +248,6 @@ def procesar_lista_reproduccion(url_playlist):
 
 
 # Ejemplo de uso con una lista de reproducción de YouTube
-url_playlist = "https://www.youtube.com/watch?v=9PdUj-KpyM0&list=PLpZJ7XCi1UtMtYAhZ19RHFI8Hk8CNEkAY"
+url_playlist = "https://www.youtube.com/playlist?list=PLpZJ7XCi1UtMtYAhZ19RHFI8Hk8CNEkAY"
 procesar_lista_reproduccion(url_playlist)
 ```

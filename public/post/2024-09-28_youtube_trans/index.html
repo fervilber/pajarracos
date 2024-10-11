@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head><script src="/pajarracos/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=pajarracos/livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Obtener la transcripción de videos de YouTube - Pajarracos</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:url" content="http://localhost:1313/pajarracos/post/2024-09-28_youtube_trans/">
+  <meta property="og:site_name" content="Pajarracos">
+  <meta property="og:title" content="Obtener la transcripción de videos de YouTube">
+  <meta property="og:description" content="En el post anterior explicaba una opción para descargar - con código python - el video (mp4) a partir de un enlace (url) de YouTube, usando la librería pytubefix.
+Eso de tener el video en el disco duro está bien, pero últimamente estoy intentando hacer RAG locales usando modelos LLM de inteligencia artificial usando Ollama y AnythingLLM. Para estos casos es súper util tener ficheros de texto con conocimiento específico de un tema en soporte local sobre los que se pasa un modelo de embbedding.">
+  <meta property="og:locale" content="es">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2024-09-28T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-09-28T00:00:00+00:00">
+    <meta property="article:tag" content="Programación">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="Youtube">
+
+		
+  <meta itemprop="name" content="Obtener la transcripción de videos de YouTube">
+  <meta itemprop="description" content="En el post anterior explicaba una opción para descargar - con código python - el video (mp4) a partir de un enlace (url) de YouTube, usando la librería pytubefix.
+Eso de tener el video en el disco duro está bien, pero últimamente estoy intentando hacer RAG locales usando modelos LLM de inteligencia artificial usando Ollama y AnythingLLM. Para estos casos es súper util tener ficheros de texto con conocimiento específico de un tema en soporte local sobre los que se pasa un modelo de embbedding.">
+  <meta itemprop="datePublished" content="2024-09-28T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-09-28T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1491">
+  <meta itemprop="keywords" content="Programación,Python,Youtube">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/pajarracos/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/pajarracos/favicon.ico">
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/pajarracos/" title="Pajarracos" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/pajarracos/img/pajarracos1.jpg">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">Pajarracos</div>
+					<div class="logo__tagline">Bitácora de proyectos e ideas</div>
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/pajarracos/formatos/">
+				
+				<span class="menu__text">Formato Markdown</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/pajarracos/about.es/">
+				
+				<span class="menu__text">Sobre mi</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Obtener la transcripción de videos de YouTube</h1>
+			<div class="post__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 16 16"><path d="M8 1c2 0 3.5 2 3.5 4.5S10 9 10 9c3 1 4 2 4 6H2c0-4 1-5 4-6 0 0-1.5-1-1.5-3.5S6 1 8 1"/></svg><span class="meta__text">F.VilBer</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0a14 14 0 1 1 0 28 1 1 0 0 1 0-28m0 3a3 3 0 1 0 0 22 3 3 0 0 0 0-22m1 4h-2v8.4l6.8 4.4L22 18l-6-3.8z"/></svg><time class="meta__text" datetime="2024-09-28T00:00:00Z">2024-09-28</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class="meta__text"><a class="meta__link" href="/pajarracos/categories/python/" rel="category">Python</a>
+	</span>
+</div></div>
+		</header>
+		
+<div class="post__toc toc">
+	<div class="toc__title">Page content</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+  <ul>
+    <li><a href="#descargar-transcripcion-de-un-video">Descargar transcripcion de un video</a></li>
+    <li><a href="#descargar-transcripción-de-una-lista-de-videos">Descargar transcripción de una lista de videos</a></li>
+  </ul>
+</nav>
+	</div>
+</div><div class="content post__content clearfix">
+			<p>En el post anterior explicaba una opción para descargar - con código python - el video (mp4) a partir de un enlace (url) de YouTube, usando la librería  <a href="https://pypi.org/project/pytubefix/"><strong>pytubefix</strong></a>.</p>
+<p>Eso de tener el video en el disco duro está bien, pero últimamente estoy intentando hacer RAG locales usando modelos LLM de inteligencia artificial usando  Ollama y AnythingLLM. Para estos casos es súper util tener ficheros de texto con conocimiento específico de un tema en soporte local sobre los que se pasa un modelo de embbedding. Y qué mejor forma de obtener mucho conocimiento, -de cualquier tema- que usando la fuente de toda sabiduría moderna: YouTube!!.😂</p>
+<p>Vamos a la faena, lo que busco es descargar las transcripciones de videos seleccionados de Youtube y para eso hay al menos dos formas:</p>
+<ol>
+<li><a href="#instalar-un-pluggin-en-el-navegador">instalar un pluggin en el navegador</a></li>
+<li><a href="#obtener-la-transcripci%C3%B3n-por-c%C3%B3digo">mediante código python</a></li>
+</ol>
+<h1 id="instalar-un-pluggin-en-el-navegador">Instalar un pluggin en el navegador</h1>
+<p>En Chrome hay algunas extensiones como la llamada &ldquo;<em>YouTube Summary with ChatGPT &amp; Claude</em>&rdquo; que es muy útil y te permite obtener directamente la transcripción desde el navegador, y si lo conectas a tu cuenta e OpenAI o de Claude de Ahthropic puede hasta hacer un resumen de dicha transcripción con lo que se le puede sacar jugo.</p>
+<h1 id="obtener-la-transcripción-por-código">Obtener la transcripción por código.</h1>
+<p>Si buscamos algo más automatizado, que nos permita descargar no solo la transcripción de un video, sino de todos los videos de una lista, lo tenemos que hacer con python. Yo he encontrado esta forma usando llama_hub que me ha funcionado muy bien, y que en segundos me permite obtener cientos de transcripciones de videos ordenados en una carpeta.</p>
+<p>Las transcripciones tienen sus problemas, ya que hablando repetimos muchas palabras, no existen puntuaciones de ortografía con lo que las frases se juntan sin fin, otras veces es la censura de YouTube con ciertas palabras el problema ya que he visto casos escandalosos, por ejemplo el quitar la palabra &ldquo;negro&rdquo;, porque debe entender que es racista referirse al color oscuro 😂😂, en casos como vacuna, Covid etc, la censura es máxima y las quita directamente de la transcripción, por lo que depende el tema que trates, puede que debas hacer un repaso semiautomático para corregir muchas de estas cosas raras que nos dejan las compañías grandes que marcan la moral de la nueva sociedad.</p>
+<p>Centrandonos en el código, voy a dejar dos sripts, el primero para descargar un solo video a partir de su url de youtube, y el segundo para descarga de una lista completa debiendo proporcionar la url de la lista y almacena las transcripciones en texto plano en una carpeta aparte.</p>
+<h2 id="descargar-transcripcion-de-un-video">Descargar transcripcion de un video</h2>
+<p>Verás que hacemos uso de la librería <code>pytubefix</code> para obtener el título del video y renombrar con él el fichero de salida, que es un markdown, de texto simple.</p>
+<p>Si los videos no los quieres en español, sino en la versión original debes quitar esto: <code> language='es'</code>, o cambiarlo por el idioma correspondiente.</p>
+<p>Pues el código para descargar una trascripción es este. En las ultimas líneas es donde debes poner la url del video en cuestión:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Hay que tener instalado:</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># pip install pytubefix llama-hub llamaIndex</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># https://llamahub.ai/l/readers/llama-index-readers-youtube-transcript?from=readers</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> pytubefix <span style="color:#f92672">import</span> YouTube
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> llama_index.readers.youtube_transcript <span style="color:#f92672">import</span> YoutubeTranscriptReader
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Función para obtener el título del video de YouTube</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">obtener_titulo_youtube</span>(url):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>        video <span style="color:#f92672">=</span> YouTube(url)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> video<span style="color:#f92672">.</span>title
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">Exception</span> <span style="color:#66d9ef">as</span> e:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Error al obtener el título del video: </span><span style="color:#e6db74">{</span>e<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Función para obtener la transcripción del video de YouTube</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">obtener_transcripcion_youtube</span>(url, language<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;es&#39;</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Usar YoutubeTranscriptReader para obtener la transcripción</span>
+</span></span><span style="display:flex;"><span>        loader <span style="color:#f92672">=</span> YoutubeTranscriptReader()
+</span></span><span style="display:flex;"><span>        transcript <span style="color:#f92672">=</span> loader<span style="color:#f92672">.</span>load_data(ytlinks<span style="color:#f92672">=</span>[url], languages<span style="color:#f92672">=</span>[language])
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> transcript
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">Exception</span> <span style="color:#66d9ef">as</span> e:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Error al obtener la transcripción del video: </span><span style="color:#e6db74">{</span>e<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Función para guardar la transcripción en un archivo Markdown</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">guardar_transcripcion_en_markdown</span>(titulo, transcripcion):
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Crear un nombre de archivo basado en el título, eliminando caracteres no válidos</span>
+</span></span><span style="display:flex;"><span>    nombre_archivo <span style="color:#f92672">=</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>titulo<span style="color:#e6db74">}</span><span style="color:#e6db74">.md&#34;</span><span style="color:#f92672">.</span>replace(<span style="color:#e6db74">&#34;/&#34;</span>, <span style="color:#e6db74">&#34;-&#34;</span>)<span style="color:#f92672">.</span>replace(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\\</span><span style="color:#e6db74">&#34;</span>, <span style="color:#e6db74">&#34;-&#34;</span>)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Crear el contenido en formato Markdown</span>
+</span></span><span style="display:flex;"><span>    contenido_md <span style="color:#f92672">=</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;# Transcripción del video: </span><span style="color:#e6db74">{</span>titulo<span style="color:#e6db74">}</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Iterar sobre los objetos Document y extraer el texto</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> doc <span style="color:#f92672">in</span> transcripcion:
+</span></span><span style="display:flex;"><span>        contenido_md <span style="color:#f92672">+=</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;- </span><span style="color:#e6db74">{</span>doc<span style="color:#f92672">.</span>text<span style="color:#e6db74">}</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Guardar el contenido en un archivo</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">with</span> open(nombre_archivo, <span style="color:#e6db74">&#34;w&#34;</span>, encoding<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;utf-8&#34;</span>) <span style="color:#66d9ef">as</span> file:
+</span></span><span style="display:flex;"><span>        file<span style="color:#f92672">.</span>write(contenido_md)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Transcripción guardada en </span><span style="color:#e6db74">{</span>nombre_archivo<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Función para imprimir la estructura de la transcripción</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">mostrar_componentes_transcripcion</span>(transcripcion):
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">--- Componentes de la transcripción ---</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> idx, doc <span style="color:#f92672">in</span> enumerate(transcripcion):
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Documento </span><span style="color:#e6db74">{</span>idx <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span><span style="color:#e6db74">}</span><span style="color:#e6db74">:&#34;</span>)
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Texto: </span><span style="color:#e6db74">{</span>doc<span style="color:#f92672">.</span>text<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Metadatos: </span><span style="color:#e6db74">{</span>doc<span style="color:#f92672">.</span>metadata<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;---------------------------</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Función principal</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">procesar_video_youtube</span>(url):
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Obtener el título del video</span>
+</span></span><span style="display:flex;"><span>    titulo <span style="color:#f92672">=</span> obtener_titulo_youtube(url)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> titulo:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Título del video: </span><span style="color:#e6db74">{</span>titulo<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Obtener la transcripción del video</span>
+</span></span><span style="display:flex;"><span>        transcripcion <span style="color:#f92672">=</span> obtener_transcripcion_youtube(url)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> transcripcion:
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># Mostrar componentes de la transcripción</span>
+</span></span><span style="display:flex;"><span>            mostrar_componentes_transcripcion(transcripcion)
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># Guardar la transcripción en un archivo Markdown</span>
+</span></span><span style="display:flex;"><span>            guardar_transcripcion_en_markdown(titulo, transcripcion)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>            print(<span style="color:#e6db74">&#34;No se pudo obtener la transcripción.&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;URL de video no válida o no se pudo obtener el título.&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Ejemplo de uso</span>
+</span></span><span style="display:flex;"><span>url_video <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;https://youtu.be/YL0xdkAC5eY?si=sAB7avi_3er1ORGV&#34;</span>
+</span></span><span style="display:flex;"><span>procesar_video_youtube(url_video)
+</span></span></code></pre></div><h2 id="descargar-transcripción-de-una-lista-de-videos">Descargar transcripción de una lista de videos</h2>
+<p>Lo bueno del código es que podemos automatizar esto y descargar de una tirada toda una lista de videos de youtube. esto como os dije me viene genial para crear conocimiento sobre un tema específico, no tengo más que pasar la url de una lista que contenga videos de la materia y esperar unos segundos.
+El script que he hecho guarda cada lista en una subcarpeta para que no se mezclen ya que son muchos y les pone a los ficheros de texto el nombre del título del video, quitando algunos símbolos que pueden dar error.</p>
+<p>Además he añadido un control de errores para que si falla la bajada de alguna transcripción sigua con el siguiente video y no se pare.</p>
+<p>La función <code>mostrar_componentes_transcripcion()</code> solo la he puesto para llevar un control de lo que va descargando, así voy viendo en directo lo que baja, pero se puede quitar sin problemas.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Hay que tener instalado</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># pip install pytubefix llama-hub</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># https://llamahub.ai/l/readers/llama-index-readers-youtube-transcript?from=readers</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># https://pytubefix.readthedocs.io/en/latest/user/playlist.html</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Este script sirve para descargar las transcripciones de todos los videos de </span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># una lista de youtube, proporcionando la url de la lista.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Fernando Villalba </span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> pytubefix <span style="color:#f92672">import</span> YouTube, Playlist
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> llama_index.readers.youtube_transcript <span style="color:#f92672">import</span> YoutubeTranscriptReader
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Función para obtener el título del video de YouTube</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">obtener_titulo_youtube</span>(url):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>        video <span style="color:#f92672">=</span> YouTube(url)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> video<span style="color:#f92672">.</span>title
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">Exception</span> <span style="color:#66d9ef">as</span> e:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Error al obtener el título del video </span><span style="color:#e6db74">{</span>url<span style="color:#e6db74">}</span><span style="color:#e6db74">: </span><span style="color:#e6db74">{</span>e<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Función para obtener la transcripción del video de YouTube</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">obtener_transcripcion_youtube</span>(url, language<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;es&#39;</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Usar YoutubeTranscriptReader para obtener la transcripción</span>
+</span></span><span style="display:flex;"><span>        loader <span style="color:#f92672">=</span> YoutubeTranscriptReader()
+</span></span><span style="display:flex;"><span>        transcript <span style="color:#f92672">=</span> loader<span style="color:#f92672">.</span>load_data(ytlinks<span style="color:#f92672">=</span>[url], languages<span style="color:#f92672">=</span>[language])
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> transcript
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">Exception</span> <span style="color:#66d9ef">as</span> e:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Error al obtener la transcripción del video </span><span style="color:#e6db74">{</span>url<span style="color:#e6db74">}</span><span style="color:#e6db74">: </span><span style="color:#e6db74">{</span>e<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Función para guardar la transcripción en un archivo Markdown dentro del subdirectorio de la lista</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">guardar_transcripcion_en_markdown</span>(titulo, transcripcion, subdirectorio):
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Crear un nombre de archivo basado en el título, eliminando caracteres no válidos</span>
+</span></span><span style="display:flex;"><span>    nombre_archivo <span style="color:#f92672">=</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>titulo<span style="color:#e6db74">}</span><span style="color:#e6db74">.md&#34;</span><span style="color:#f92672">.</span>replace(<span style="color:#e6db74">&#34;/&#34;</span>, <span style="color:#e6db74">&#34;-&#34;</span>)<span style="color:#f92672">.</span>replace(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\\</span><span style="color:#e6db74">&#34;</span>, <span style="color:#e6db74">&#34;-&#34;</span>)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Crear el contenido en formato Markdown</span>
+</span></span><span style="display:flex;"><span>    contenido_md <span style="color:#f92672">=</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;# Transcripción del video: </span><span style="color:#e6db74">{</span>titulo<span style="color:#e6db74">}</span><span style="color:#ae81ff">\n\n</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Iterar sobre los objetos Document y extraer el texto</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> doc <span style="color:#f92672">in</span> transcripcion:
+</span></span><span style="display:flex;"><span>        contenido_md <span style="color:#f92672">+=</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;- </span><span style="color:#e6db74">{</span>doc<span style="color:#f92672">.</span>text<span style="color:#e6db74">}</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Crear el subdirectorio si no existe</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>exists(subdirectorio):
+</span></span><span style="display:flex;"><span>        os<span style="color:#f92672">.</span>makedirs(subdirectorio)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Guardar el archivo en el subdirectorio</span>
+</span></span><span style="display:flex;"><span>    ruta_archivo <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(subdirectorio, nombre_archivo)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">with</span> open(ruta_archivo, <span style="color:#e6db74">&#34;w&#34;</span>, encoding<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;utf-8&#34;</span>) <span style="color:#66d9ef">as</span> file:
+</span></span><span style="display:flex;"><span>        file<span style="color:#f92672">.</span>write(contenido_md)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Transcripción guardada en </span><span style="color:#e6db74">{</span>ruta_archivo<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Función para imprimir la estructura de la transcripción</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">mostrar_componentes_transcripcion</span>(transcripcion):
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">--- Componentes de la transcripción ---</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> idx, doc <span style="color:#f92672">in</span> enumerate(transcripcion):
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Documento </span><span style="color:#e6db74">{</span>idx <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span><span style="color:#e6db74">}</span><span style="color:#e6db74">:&#34;</span>)
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Texto: </span><span style="color:#e6db74">{</span>doc<span style="color:#f92672">.</span>text<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Metadatos: </span><span style="color:#e6db74">{</span>doc<span style="color:#f92672">.</span>metadata<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;---------------------------</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Función para procesar un video de YouTube</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">procesar_video_youtube</span>(url, subdirectorio):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Obtener el título del video</span>
+</span></span><span style="display:flex;"><span>        titulo <span style="color:#f92672">=</span> obtener_titulo_youtube(url)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> titulo:
+</span></span><span style="display:flex;"><span>            print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Título del video: </span><span style="color:#e6db74">{</span>titulo<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># Obtener la transcripción del video</span>
+</span></span><span style="display:flex;"><span>            transcripcion <span style="color:#f92672">=</span> obtener_transcripcion_youtube(url)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> transcripcion:
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e"># Mostrar componentes de la transcripción</span>
+</span></span><span style="display:flex;"><span>                mostrar_componentes_transcripcion(transcripcion)
+</span></span><span style="display:flex;"><span>                
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e"># Guardar la transcripción en un archivo Markdown dentro del subdirectorio</span>
+</span></span><span style="display:flex;"><span>                guardar_transcripcion_en_markdown(titulo, transcripcion, subdirectorio)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>                print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;No se pudo obtener la transcripción del video: </span><span style="color:#e6db74">{</span>url<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>            print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;URL de video no válida o no se pudo obtener el título para </span><span style="color:#e6db74">{</span>url<span style="color:#e6db74">}</span><span style="color:#e6db74">.&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">Exception</span> <span style="color:#66d9ef">as</span> e:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Error al procesar el video </span><span style="color:#e6db74">{</span>url<span style="color:#e6db74">}</span><span style="color:#e6db74">: </span><span style="color:#e6db74">{</span>e<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Función para crear un subdirectorio único para la lista de reproducción</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">crear_subdirectorio_lista</span>(nombre_base<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;lista&#34;</span>):
+</span></span><span style="display:flex;"><span>    contador <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    subdirectorio <span style="color:#f92672">=</span> nombre_base
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Verificar si el subdirectorio ya existe y, si es así, crear uno numerado</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>exists(subdirectorio):
+</span></span><span style="display:flex;"><span>        subdirectorio <span style="color:#f92672">=</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>nombre_base<span style="color:#e6db74">}{</span>contador<span style="color:#e6db74">:</span><span style="color:#e6db74">02d</span><span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>        contador <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    os<span style="color:#f92672">.</span>makedirs(subdirectorio)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> subdirectorio
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Función para procesar una lista de reproducción de YouTube usando Playlist de pytubefix</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">procesar_lista_reproduccion</span>(url_playlist):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Cargar la lista de reproducción</span>
+</span></span><span style="display:flex;"><span>        p <span style="color:#f92672">=</span> Playlist(url_playlist)
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Crear un subdirectorio para la lista de reproducción</span>
+</span></span><span style="display:flex;"><span>        subdirectorio_lista <span style="color:#f92672">=</span> crear_subdirectorio_lista(<span style="color:#e6db74">&#34;lista&#34;</span>)
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Guardando transcripciones en el directorio: </span><span style="color:#e6db74">{</span>subdirectorio_lista<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Recorrer todas las URLs de videos en la lista de reproducción</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> url <span style="color:#f92672">in</span> p<span style="color:#f92672">.</span>video_urls:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>                print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Procesando video: </span><span style="color:#e6db74">{</span>url<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>                
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e"># Procesar el video y guardar la transcripción en el subdirectorio de la lista</span>
+</span></span><span style="display:flex;"><span>                procesar_video_youtube(url, subdirectorio_lista)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">Exception</span> <span style="color:#66d9ef">as</span> e:
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e"># Manejo de errores en cada video</span>
+</span></span><span style="display:flex;"><span>                print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Error al procesar el video </span><span style="color:#e6db74">{</span>url<span style="color:#e6db74">}</span><span style="color:#e6db74">. Continuando con el siguiente video: </span><span style="color:#e6db74">{</span>e<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">Exception</span> <span style="color:#66d9ef">as</span> e:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Error al procesar la lista de reproducción: </span><span style="color:#e6db74">{</span>e<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Ejemplo de uso con una lista de reproducción de YouTube</span>
+</span></span><span style="display:flex;"><span>url_playlist <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;https://www.youtube.com/playlist?list=PLpZJ7XCi1UtMtYAhZ19RHFI8Hk8CNEkAY&#34;</span>
+</span></span><span style="display:flex;"><span>procesar_lista_reproduccion(url_playlist)
+</span></span></code></pre></div>
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M4 0h8s2 0 4 2l15 15s2 2 0 4L21 31s-2 2-4 0L2 16s-2-2-2-4V3s0-3 4-3m3 10a3 3 0 0 0 0-6 3 3 0 0 0 0 6"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/pajarracos/tags/programaci%C3%B3n/" rel="tag">programación</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/pajarracos/tags/python/" rel="tag">python</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/pajarracos/tags/youtube/" rel="tag">youtube</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="F.VilBer avatar" src="/pajarracos/img/male-avatar.png" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">About F.VilBer</span>
+	</div>
+	<div class="authorbox__description">
+		Ciudadano Vil
+	</div>
+</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/pajarracos/post/2024-09-16_youtube/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Previous</span>
+			<p class="pager__title">Descargar videos de YouTube con Python</p>
+		</a>
+	</div>
+</nav>
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<input class="widget-search__field" type="search" placeholder="Search…" value="" name="q" aria-label="Search…">
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="http://localhost:1313/pajarracos/">
+	</form>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/pajarracos/post/2024-09-28_youtube_trans/">Obtener la transcripción de videos de YouTube</a></li>
+			<li class="widget__item"><a class="widget__link" href="/pajarracos/post/2024-09-16_youtube/">Descargar videos de YouTube con Python</a></li>
+			<li class="widget__item"><a class="widget__link" href="/pajarracos/post/2024-08-08/">Instrucciones para crear un blog 2</a></li>
+			<li class="widget__item"><a class="widget__link" href="/pajarracos/post/2024-07-14_instrucciones/">Instrucciones para crear un blog 1</a></li>
+			<li class="widget__item"><a class="widget__link" href="/pajarracos/post/2024-07-08_01/">El primer paso</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/pajarracos/categories/blog/">Blog</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/pajarracos/categories/python/">Python</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/pajarracos/categories/retos/">Retos</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">Social</h4>
+	<div class="widget-social__content widget__content">
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Twitter" rel="noopener noreferrer" href="https://twitter.com/@enRdados" target="_blank">
+				<svg class="widget-social__link-icon icon icon-twitter" width="24" height="24" viewBox="0 0 384 312"><path d="m384 36.9c-14.1 6.3-29.3 10.5-45.2 12.4 16.3-9.7 28.8-25.2 34.6-43.6-15.2 9-32.1 15.6-50 19.1-14.4-15.2-34.9-24.8-57.5-24.8-43.5 0-78.8 35.3-78.8 78.8 0 6.2.7 12.2 2 17.9-65.5-3.3-123.5-34.6-162.4-82.3-6.7 11.6-10.6 25.2-10.6 39.6 0 27.3 13.9 51.4 35 65.6-12.9-.4-25.1-4-35.7-9.9v1c0 38.2 27.2 70 63.2 77.2-6.6 1.8-13.6 2.8-20.8 2.8-5.1 0-10-.5-14.8-1.4 10 31.3 39.1 54.1 73.6 54.7-27 21.1-60.9 33.7-97.8 33.7-6.4 0-12.6-.4-18.8-1.1 34.9 22.4 76.3 35.4 120.8 35.4 144.9 0 224.1-120 224.1-224.1 0-3.4-.1-6.8-.2-10.2 15.4-11.1 28.7-25 39.3-40.8z"/></svg>
+				<span>Twitter</span>
+			</a>
+		</div>
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="GitHub" rel="noopener noreferrer" href="https://github.com/fervilber" target="_blank">
+				<svg class="widget-social__link-icon icon icon-github" width="24" height="24" viewBox="0 0 384 374"><path d="m192 0c-106.1 0-192 85.8-192 191.7 0 84.7 55 156.6 131.3 181.9 9.6 1.8 13.1-4.2 13.1-9.2 0-4.6-.2-16.6-.3-32.6-53.4 11.6-64.7-25.7-64.7-25.7-8.7-22.1-21.3-28-21.3-28-17.4-11.9 1.3-11.6 1.3-11.6 19.3 1.4 29.4 19.8 29.4 19.8 17.1 29.3 44.9 20.8 55.9 15.9 1.7-12.4 6.7-20.8 12.2-25.6-42.6-4.8-87.5-21.3-87.5-94.8 0-20.9 7.5-38 19.8-51.4-2-4.9-8.6-24.3 1.9-50.7 0 0 16.1-5.2 52.8 19.7 15.3-4.2 31.7-6.4 48.1-6.5 16.3.1 32.7 2.2 48.1 6.5 36.7-24.8 52.8-19.7 52.8-19.7 10.5 26.4 3.9 45.9 1.9 50.7 12.3 13.4 19.7 30.5 19.7 51.4 0 73.7-44.9 89.9-87.7 94.6 6.9 5.9 13 17.6 13 35.5 0 25.6-.2 46.3-.2 52.6 0 5.1 3.5 11.1 13.2 9.2 76.2-25.5 131.2-97.3 131.2-182 0-105.9-86-191.7-192-191.7z"/></svg>
+				<span>GitHub</span>
+			</a>
+		</div>
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Email" href="mailto:fervilber@gamil.com">
+				<svg class="widget-social__link-icon icon icon-mail" width="24" height="24" viewBox="0 0 24 24"><path d="M0 3h24v18H0zm2 16h20V7l-10 6L2 7zM22 5H2l10 6z"/></svg>
+				<span>fervilber@gamil.com</span>
+			</a>
+		</div>
+
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Youtube"  rel="noopener noreferrer" href="https://www.youtube.com/@fervil846" target="_blank">
+				<span>Youtube</span>
+			</a>
+		</div>
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Mi web"  rel="noopener noreferrer" href="http://gritos.org" target="_blank">
+				<span>Mi web</span>
+			</a>
+		</div>
+		
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/pajarracos/tags/blog/" title="Blog">Blog</a>
+		<a class="widget-taglist__link widget__link btn" href="/pajarracos/tags/hugo/" title="Hugo">Hugo</a>
+		<a class="widget-taglist__link widget__link btn" href="/pajarracos/tags/programaci%C3%B3n/" title="Programación">Programación</a>
+		<a class="widget-taglist__link widget__link btn" href="/pajarracos/tags/python/" title="Python">Python</a>
+		<a class="widget-taglist__link widget__link btn" href="/pajarracos/tags/youtube/" title="Youtube">Youtube</a>
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2024 G.Vil.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/pajarracos/js/menu.js"></script>
+</body>
+</html>

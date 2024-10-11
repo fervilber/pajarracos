@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Pajarracos</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 16 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/pajarracos/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obtener la transcripción de videos de YouTube</title>
+      <link>http://localhost:1313/pajarracos/post/2024-09-28_youtube_trans/</link>
+      <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pajarracos/post/2024-09-28_youtube_trans/</guid>
+      <description>En el post anterior explicaba una opción para descargar - con código python - el video (mp4) a partir de un enlace (url) de YouTube, usando la librería pytubefix.&#xA;Eso de tener el video en el disco duro está bien, pero últimamente estoy intentando hacer RAG locales usando modelos LLM de inteligencia artificial usando Ollama y AnythingLLM. Para estos casos es súper util tener ficheros de texto con conocimiento específico de un tema en soporte local sobre los que se pasa un modelo de embbedding.</description>
+    </item>
     <item>
       <title>Descargar videos de YouTube con Python</title>
       <link>http://localhost:1313/pajarracos/post/2024-09-16_youtube/</link>
