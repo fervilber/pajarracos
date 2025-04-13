@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Pajarracos</title>
+    <link>http://localhost:1313/pajarracos/tags/r/</link>
+    <description>Recent content in R on Pajarracos</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/pajarracos/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Asistente IA para programar en VSCode</title>
+      <link>http://localhost:1313/pajarracos/post/2025-13-04_vscode/</link>
+      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pajarracos/post/2025-13-04_vscode/</guid>
+      <description>Guía Paso a Paso para usar un asistente de Inteligencia Artificial en Visual Studio Code Introducción ¿Buscas una forma de utilizar la inteligencia artificial para ayudarte en tu trabajo sin gastar dinero? Este tutorial te mostrará cómo configurar Visual Studio Code con la extensión Roo Code y conectarla al modelo de inteligencia artificial Gemini 2.5 de Google totalmente gratis!. Esta es una excelente alternativa a herramientas de pago como Cursor o GitHub Copilot.</description>
+    </item>
+  </channel>
+</rss>
