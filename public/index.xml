@@ -6,13 +6,20 @@
     <description>Recent content on Pajarracos</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/pajarracos/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Instrucciones para crear un blog 1</title>
+      <link>http://localhost:1313/pajarracos/post/2025-05-09/</link>
+      <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pajarracos/post/2025-05-09/</guid>
+      <description>Vamos a recopilar lo que puse en los primeros post ya que he querido volver a montar un blog para un amigo y me hacía falta refrescar.&#xA;Empezar un blog completamente gratis. Parte 1 Este es un post especial, porque quiero empezar un blog desde cero usando las herramientas más modernas y actuales. El objetivo es montar la estructura de blog rápidamente, y que lo montemos sin gastar un euro en servidores usando solo cosas que se encuentran en la comunidad web desde hace años, que además usa la última tecnología, la más rápida y como veremos una de las formas más sencillas de empezar a crear contenido web y hacernos un nombre.</description>
+    </item>
+    <item>
       <title>Asistente IA para programar en VSCode</title>
-      <link>http://localhost:1313/pajarracos/post/2025-13-04_vscode/</link>
+      <link>http://localhost:1313/pajarracos/post/2025-04-13_vscode/</link>
       <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pajarracos/post/2025-13-04_vscode/</guid>
+      <guid>http://localhost:1313/pajarracos/post/2025-04-13_vscode/</guid>
       <description>Guía Paso a Paso para usar un asistente de Inteligencia Artificial en Visual Studio Code Introducción ¿Buscas una forma de utilizar la inteligencia artificial para ayudarte en tu trabajo sin gastar dinero? Este tutorial te mostrará cómo configurar Visual Studio Code con la extensión Roo Code y conectarla al modelo de inteligencia artificial Gemini 2.5 de Google totalmente gratis!. Esta es una excelente alternativa a herramientas de pago como Cursor o GitHub Copilot.</description>
     </item>
     <item>
@@ -28,13 +35,6 @@
       <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/pajarracos/post/2024-09-16_youtube/</guid>
       <description>Programa para descargar videos de Youtube Supongo que alguna vez habreis necesitado descargar algún video de YouTube, ya sea un podcast interesante, o un video musical para escucharlo en otro momento sin anuncios o para tenerlo guardado. Estoy seguro que habeis pasado un buen rato buscando alguna herramienta para descargar estos videos, hay algunas web que funcionan, pero la mitad son puro fake.&#xA;Pues bien, vamos a ver una solución sencilla para hacer esto desde Python con la librería pytubefix.</description>
-    </item>
-    <item>
-      <title>Un RAG con python</title>
-      <link>http://localhost:1313/pajarracos/post/2024-08-21_rag/</link>
-      <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pajarracos/post/2024-08-21_rag/</guid>
-      <description>Hacer un RAG local Vamos a empezar este blog, y llenarlo de cosas interesantes&amp;hellip;.la idea primera es dejar constancia de los pasos para crear proyectos chulos y este es uno que llevo tiempo detrás, de hecho ya hice alguna cosilla super chula el año pasado cuando empezó todo esto de la IA. entonces fue mucho más dificil, no había tanta información, ni tanto youtuber creando contenido de esto, y aún así se podían hacer cosillas curiosas.</description>
     </item>
     <item>
       <title>Instrucciones para crear un blog 2</title>

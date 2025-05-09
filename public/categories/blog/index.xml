@@ -6,13 +6,20 @@
     <description>Recent content in Blog on Pajarracos</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/pajarracos/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Instrucciones para crear un blog 1</title>
+      <link>http://localhost:1313/pajarracos/post/2025-05-09/</link>
+      <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pajarracos/post/2025-05-09/</guid>
+      <description>Vamos a recopilar lo que puse en los primeros post ya que he querido volver a montar un blog para un amigo y me hacía falta refrescar.&#xA;Empezar un blog completamente gratis. Parte 1 Este es un post especial, porque quiero empezar un blog desde cero usando las herramientas más modernas y actuales. El objetivo es montar la estructura de blog rápidamente, y que lo montemos sin gastar un euro en servidores usando solo cosas que se encuentran en la comunidad web desde hace años, que además usa la última tecnología, la más rápida y como veremos una de las formas más sencillas de empezar a crear contenido web y hacernos un nombre.</description>
+    </item>
+    <item>
       <title>Asistente IA para programar en VSCode</title>
-      <link>http://localhost:1313/pajarracos/post/2025-13-04_vscode/</link>
+      <link>http://localhost:1313/pajarracos/post/2025-04-13_vscode/</link>
       <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pajarracos/post/2025-13-04_vscode/</guid>
+      <guid>http://localhost:1313/pajarracos/post/2025-04-13_vscode/</guid>
       <description>Guía Paso a Paso para usar un asistente de Inteligencia Artificial en Visual Studio Code Introducción ¿Buscas una forma de utilizar la inteligencia artificial para ayudarte en tu trabajo sin gastar dinero? Este tutorial te mostrará cómo configurar Visual Studio Code con la extensión Roo Code y conectarla al modelo de inteligencia artificial Gemini 2.5 de Google totalmente gratis!. Esta es una excelente alternativa a herramientas de pago como Cursor o GitHub Copilot.</description>
     </item>
     <item>

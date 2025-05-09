@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head><script src="/pajarracos/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=pajarracos/livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Asistente IA para programar en VSCode - Pajarracos</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:url" content="http://localhost:1313/pajarracos/post/2025-04-13_vscode/">
+  <meta property="og:site_name" content="Pajarracos">
+  <meta property="og:title" content="Asistente IA para programar en VSCode">
+  <meta property="og:description" content="Guía Paso a Paso para usar un asistente de Inteligencia Artificial en Visual Studio Code Introducción ¿Buscas una forma de utilizar la inteligencia artificial para ayudarte en tu trabajo sin gastar dinero? Este tutorial te mostrará cómo configurar Visual Studio Code con la extensión Roo Code y conectarla al modelo de inteligencia artificial Gemini 2.5 de Google totalmente gratis!. Esta es una excelente alternativa a herramientas de pago como Cursor o GitHub Copilot.">
+  <meta property="og:locale" content="es">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2025-04-13T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-04-13T00:00:00+00:00">
+    <meta property="article:tag" content="Programacion">
+    <meta property="article:tag" content="R">
+
+		
+  <meta itemprop="name" content="Asistente IA para programar en VSCode">
+  <meta itemprop="description" content="Guía Paso a Paso para usar un asistente de Inteligencia Artificial en Visual Studio Code Introducción ¿Buscas una forma de utilizar la inteligencia artificial para ayudarte en tu trabajo sin gastar dinero? Este tutorial te mostrará cómo configurar Visual Studio Code con la extensión Roo Code y conectarla al modelo de inteligencia artificial Gemini 2.5 de Google totalmente gratis!. Esta es una excelente alternativa a herramientas de pago como Cursor o GitHub Copilot.">
+  <meta itemprop="datePublished" content="2025-04-13T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-04-13T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1142">
+  <meta itemprop="keywords" content="Programacion,R">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/pajarracos/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/pajarracos/favicon.ico">
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/pajarracos/" title="Pajarracos" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/pajarracos/img/pajarracos1.jpg">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">Pajarracos</div>
+					<div class="logo__tagline">Bitácora de proyectos e ideas</div>
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/pajarracos/formatos/">
+				
+				<span class="menu__text">Formato Markdown</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/pajarracos/about.es/">
+				
+				<span class="menu__text">Sobre mi</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Asistente IA para programar en VSCode</h1>
+			<div class="post__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 16 16"><path d="M8 1c2 0 3.5 2 3.5 4.5S10 9 10 9c3 1 4 2 4 6H2c0-4 1-5 4-6 0 0-1.5-1-1.5-3.5S6 1 8 1"/></svg><span class="meta__text">F.VilBer</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0a14 14 0 1 1 0 28 1 1 0 0 1 0-28m0 3a3 3 0 1 0 0 22 3 3 0 0 0 0-22m1 4h-2v8.4l6.8 4.4L22 18l-6-3.8z"/></svg><time class="meta__text" datetime="2025-04-13T00:00:00Z">2025-04-13</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class="meta__text"><a class="meta__link" href="/pajarracos/categories/blog/" rel="category">Blog</a>
+	</span>
+</div></div>
+		</header>
+		
+<div class="post__toc toc">
+	<div class="toc__title">Page content</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+  <ul>
+    <li><a href="#introducción">Introducción</a></li>
+    <li><a href="#visual-studio-code-vscode">Visual Studio Code VSCode</a>
+      <ul>
+        <li><a href="#paso-1-descarga-e-instala-visual-studio-code">Paso 1: Descarga e Instala Visual Studio Code</a></li>
+        <li><a href="#paso-2-instala-la-extensión-roo-code"><strong>Paso 2: Instala la Extensión roo code</strong></a></li>
+        <li><a href="#paso-3-conecta-roo-code-a-gemini-25-a-través-de-open-router-opción-1"><strong>Paso 3: Conecta Roo code a Gemini 2.5 a través de Open Router (Opción 1)</strong></a></li>
+        <li><a href="#paso-4-conecta-roo-code-directamente-a-gemini-a-través-de-google-ai-studio-opción-2"><strong>Paso 4: Conecta Roo code directamente a Gemini a través de Google AI Studio (Opción 2)</strong></a></li>
+        <li><a href="#paso-5-comienza-a-codificar-con-gemini-25"><strong>Paso 5: Comienza a Codificar con Gemini 2.5</strong></a></li>
+        <li><a href="#paso-6-interactúa-y-refina-tu-código"><strong>Paso 6: Interactúa y Refina tu Código</strong></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+	</div>
+</div><div class="content post__content clearfix">
+			<h1 id="guía-paso-a-paso-para-usar-un-asistente-de-inteligencia-artificial-en-visual-studio-code">Guía Paso a Paso para usar un asistente de Inteligencia Artificial en Visual Studio Code</h1>
+<h2 id="introducción">Introducción</h2>
+<p>¿Buscas una forma de utilizar la inteligencia artificial para ayudarte en tu trabajo sin gastar dinero? Este tutorial te mostrará cómo configurar Visual Studio Code con la extensión <strong>Roo Code</strong> y conectarla al modelo de inteligencia artificial <strong>Gemini 2.5</strong> de Google totalmente gratis!. Esta es una excelente alternativa a herramientas de pago como Cursor o GitHub Copilot.</p>
+<h2 id="visual-studio-code-vscode">Visual Studio Code VSCode</h2>
+<p>Desde que surgió esto de la AI para hacer código cambié mi entorno habitual de trabajo que era Rstudio por VSCode. No fue algo inmediato, pero es que todo lo nuevo salía en Python así que me acostumbré a programar en VSCode. Al final los entornos de programación son parecidos, pero en cuanto te acostumbras a uno es dificil cambiar, nos cuesta mucho.
+El caso es que he probado algunas extensiones en VBCode, pero esta que os voy a decir es la que me ha parecido más sencilla de usar y que funciona realmente bien</p>
+<h3 id="paso-1-descarga-e-instala-visual-studio-code">Paso 1: Descarga e Instala Visual Studio Code</h3>
+<p>este es un paso obvio,</p>
+<ol>
+<li>Busca &ldquo;<strong>VS code</strong>&rdquo; en Google.</li>
+<li>Haz clic en el primer resultado para ir a la página de descarga.</li>
+<li>Descarga la versión para <strong>Windows</strong> (o tu sistema operativo) haciendo clic en el botón correspondiente.</li>
+<li>Ejecuta el archivo <strong>.exe</strong> descargado.</li>
+<li>Acepta el acuerdo de licencia y haz clic en &ldquo;<strong>Siguiente</strong>&rdquo; varias veces.</li>
+<li><strong>Activa las opciones</strong> que te permiten abrir carpetas en Visual Studio Code con clic derecho.</li>
+<li>Haz clic en &ldquo;<strong>Instalar</strong>&rdquo; y espera a que finalice la instalación.</li>
+<li>Haz clic en &ldquo;<strong>Finalizar</strong>&rdquo; para abrir Visual Studio Code.</li>
+</ol>
+<h3 id="paso-2-instala-la-extensión-roo-code"><strong>Paso 2: Instala la Extensión roo code</strong></h3>
+<ol>
+<li>Una vez abierto Visual Studio Code, busca el icono de <strong>Extensiones</strong> <img src="../../img/icono_extensiones.png" alt="extensiones"> en la barra lateral izquierda (generalmente es un cuadrado con otro cuadrado saliendo).</li>
+<li>En el buscador de extensiones, escribe &ldquo;<strong>Roo code</strong>&rdquo;.</li>
+<li>El primer resultado debería ser la extensión &ldquo;<strong>Roo code</strong>&rdquo;. el símbolo es un canguro, haz clic en ella.</li>
+<li>Haz clic en el botón &ldquo;<strong>Instalar</strong>&rdquo;.</li>
+<li>Si aparece una ventana preguntando si confías en la extensión, haz clic en &ldquo;<strong>Confiar y continuar</strong>&rdquo; o un botón similar.</li>
+<li>Verás el icono de <strong>Roo code</strong> en la barra lateral izquierda, lo que indica que la extensión se ha instalado correctamente.</li>
+</ol>
+<p><img src="../../img/roo_code.png" alt="roo code extension"></p>
+<h3 id="paso-3-conecta-roo-code-a-gemini-25-a-través-de-open-router-opción-1"><strong>Paso 3: Conecta Roo code a Gemini 2.5 a través de Open Router (Opción 1)</strong></h3>
+<ol>
+<li>Haz clic en el <strong>icono de Roo code</strong> en la barra lateral izquierda.</li>
+<li>En la interfaz de Roo code, haz clic en el botón grande &ldquo;<strong>Open router</strong>&rdquo;.</li>
+<li>Esto te redirigirá a la página de Open Router en tu navegador, donde deberás <strong>loguearte</strong> con Google, GitHub o crear una cuenta con tu correo electrónico.</li>
+<li>Una vez logueado, te aparecerá una <strong>solicitud de autorización</strong>. Puedes dejar el límite de crédito en blanco por ahora.</li>
+<li>Haz clic en &ldquo;<strong>Autorizar</strong>&rdquo;.</li>
+<li>Es posible que aparezca una alerta en Google Chrome. Haz clic en el botón &ldquo;<strong>Open visual Studio code</strong>&rdquo; para volver a la aplicación.</li>
+<li>En Visual Studio Code, haz clic en &ldquo;<strong>Open</strong>&rdquo; para completar la conexión entre Open Router y Roo code.</li>
+<li>Ve al <strong>engranaje de ajustes</strong> en la parte superior de la interfaz de Roo code.</li>
+<li>En la sección &ldquo;<strong>Modelo</strong>&rdquo;, verifica que esté seleccionado &ldquo;<strong>Anthropic Claude Sonnet 3.7</strong>&rdquo;. Este modelo no es gratuito, así que debes cambiarlo.</li>
+<li>Haz clic en el menú desplegable del modelo y busca &ldquo;<strong>gemini 2.5 Pro</strong>&rdquo;. Deberías ver &ldquo;<strong>free</strong>&rdquo; al final, indicando que es gratuito.</li>
+<li><strong>Selecciona &ldquo;gemini 2.5 Pro (free)&rdquo;</strong>.</li>
+<li>Puedes explorar otros modelos gratuitos buscando &ldquo;<strong>free</strong>&rdquo; en el filtro.</li>
+<li>Cierra la ventana de ajustes.</li>
+</ol>
+<h3 id="paso-4-conecta-roo-code-directamente-a-gemini-a-través-de-google-ai-studio-opción-2"><strong>Paso 4: Conecta Roo code directamente a Gemini a través de Google AI Studio (Opción 2)</strong></h3>
+<ol>
+<li>Si tienes problemas con Open Router o prefieres usar directamente Gemini, ve al <strong>engranaje de ajustes</strong> de Roo Code.</li>
+<li>Cambia el &ldquo;<strong>Proveedor</strong>&rdquo; de &ldquo;<strong>Open router</strong>&rdquo; a &ldquo;<strong>Google gemini</strong>&rdquo;.</li>
+<li>Haz clic en el botón &ldquo;<strong>obtener clave Api de gemini</strong>&rdquo;.</li>
+<li>Esto abrirá tu navegador en <strong>Google AI Studio</strong>.</li>
+<li>Haz clic en el botón azul &ldquo;<strong>Explorar modelos</strong>&rdquo;. Si no ves esta pantalla, podrías ver la interfaz de interacción con los modelos de Google.</li>
+<li>Haz clic en el botón &ldquo;<strong>Get API key</strong>&rdquo;. Si estás en la interfaz principal, busca la opción para crear una clave API.</li>
+<li>Selecciona el proyecto &ldquo;<strong>gemini_appi</strong>&rdquo; (generalmente estará por defecto). Si no aparece, el video sugiere dejar un comentario para ayuda.</li>
+<li>Haz clic en &ldquo;<strong>Crear clave de API en un proyecto existente</strong>&rdquo; y luego en &ldquo;<strong>Crear clave de API</strong>&rdquo;.</li>
+<li><strong>Copia la clave API</strong> que se genera. <strong>Importante:</strong> No compartas esta clave con nadie.</li>
+<li>Vuelve a Visual Studio Code y pega la clave API en el campo &ldquo;<strong>Clave Api de gemini</strong>&rdquo; dentro de la configuración de Roo code.</li>
+<li>En la opción &ldquo;<strong>Modelo</strong>&rdquo; asegúrate de tener seleccionado &ldquo;<strong>gemini 2.5 Pro</strong>&rdquo; (debería aparecer ahora que has ingresado la clave).</li>
+<li>Haz clic en &ldquo;<strong>Guardar</strong>&rdquo; en la parte superior de la ventana de ajustes.</li>
+</ol>
+<p><img src="../../img/roo_code1.png" alt="Roo Code extension"></p>
+<h3 id="paso-5-comienza-a-codificar-con-gemini-25"><strong>Paso 5: Comienza a Codificar con Gemini 2.5</strong></h3>
+<ol>
+<li>Haz clic en el botón &ldquo;<strong>New task</strong>&rdquo; (nueva tarea) en la interfaz de Roo Code (generalmente un icono de &ldquo;+&rdquo;).</li>
+<li>Se abrirá un campo de texto donde puedes escribir tus &ldquo;<strong>prompts</strong>&rdquo; o peticiones.</li>
+<li><strong>Experimenta con los diferentes modos</strong> de Roo Code haciendo clic en el botón &ldquo;<strong>code</strong>&rdquo;. Por ejemplo, el &ldquo;<strong>modo arquitecto</strong>&rdquo; te ayuda a conceptualizar la estructura de tu aplicación.</li>
+<li>Escribe tu prompt describiendo lo que quieres crear. El video muestra un ejemplo de solicitar una calculadora web interactiva para un salón de belleza.</li>
+<li>Haz clic en el botón para <strong>enviar el mensaje</strong>.</li>
+<li>Lee las respuestas del modelo y <strong>colabora con él</strong> respondiendo a sus preguntas para refinar la aplicación.</li>
+<li>Si la respuesta inicial está en inglés, puedes intentar cambiar el &ldquo;<strong>Language</strong>&rdquo; (idioma) a español en la configuración de Roo code, aunque esto podría no cambiar el idioma del modelo directamente.</li>
+<li>Si experimentas errores con un proveedor (como Open Router saturado), puedes intentar cambiar al otro método de conexión (Google Gemini).</li>
+</ol>
+<h3 id="paso-6-interactúa-y-refina-tu-código"><strong>Paso 6: Interactúa y Refina tu Código</strong></h3>
+<ol>
+<li>Una vez que el modelo genere código, puedes <strong>pedirle que lo modifique, agregue funcionalidades o corrija errores</strong>.</li>
+<li>Utiliza la <strong>consola del navegador</strong> (clic derecho en la página web, &ldquo;<strong>Inspect</strong>&rdquo; o &ldquo;<strong>Inspeccionar</strong>&rdquo;, luego ve a la pestaña &ldquo;<strong>Consola</strong>&rdquo;) para identificar errores en tu aplicación web y enviárselos a Gemini para que los corrija.</li>
+<li><em>Roo Code</em> puede funcionar de forma recursiva, buscando errores e implementando el código de manera inteligente.</li>
+<li>Puedes <strong>auto aprobar</strong> ciertas acciones de <em>Roo Code</em> en la configuración para que el proceso sea más automático, pero es importante revisar los resúmenes de las acciones.</li>
+<li><em>Roo Code</em> puede incluso <strong>crear carpetas y mover archivos</strong> dentro de tu proyecto a través de tus peticiones.</li>
+</ol>
+<h1 id="conclusión">Conclusión</h1>
+<p>Utilizar Gemini 2.5 con Roo Code en Visual Studio Code es una excelente manera de adentrarse en el mundo de la programación asistida por inteligencia artificial de forma gratuita. Recuerda que si bien estas herramientas son poderosas, requieren de tu guía y conocimiento para obtener los mejores resultados.</p>
+<p>Nos vemo, un saludo!!</p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M4 0h8s2 0 4 2l15 15s2 2 0 4L21 31s-2 2-4 0L2 16s-2-2-2-4V3s0-3 4-3m3 10a3 3 0 0 0 0-6 3 3 0 0 0 0 6"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/pajarracos/tags/programacion/" rel="tag">programacion</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/pajarracos/tags/r/" rel="tag">R</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="F.VilBer avatar" src="/pajarracos/img/male-avatar.png" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">About F.VilBer</span>
+	</div>
+	<div class="authorbox__description">
+		Ciudadano Vil
+	</div>
+</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/pajarracos/post/2024-09-28_youtube_trans/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Previous</span>
+			<p class="pager__title">Obtener la transcripción de videos de YouTube</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/pajarracos/post/2025-05-09/" rel="next">
+			<span class="pager__subtitle">Next&thinsp;»</span>
+			<p class="pager__title">Instrucciones para crear un blog 1</p>
+		</a>
+	</div>
+</nav>
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<input class="widget-search__field" type="search" placeholder="Search…" value="" name="q" aria-label="Search…">
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="http://localhost:1313/pajarracos/">
+	</form>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/pajarracos/post/2025-05-09/">Instrucciones para crear un blog 1</a></li>
+			<li class="widget__item"><a class="widget__link" href="/pajarracos/post/2025-04-13_vscode/">Asistente IA para programar en VSCode</a></li>
+			<li class="widget__item"><a class="widget__link" href="/pajarracos/post/2024-09-28_youtube_trans/">Obtener la transcripción de videos de YouTube</a></li>
+			<li class="widget__item"><a class="widget__link" href="/pajarracos/post/2024-09-16_youtube/">Descargar videos de YouTube con Python</a></li>
+			<li class="widget__item"><a class="widget__link" href="/pajarracos/post/2024-08-08/">Instrucciones para crear un blog 2</a></li>
+			<li class="widget__item"><a class="widget__link" href="/pajarracos/post/2024-07-14_instrucciones/">Instrucciones para crear un blog 1</a></li>
+			<li class="widget__item"><a class="widget__link" href="/pajarracos/post/2024-07-08_01/">El primer paso</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/pajarracos/categories/blog/">Blog</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/pajarracos/categories/python/">Python</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/pajarracos/categories/retos/">Retos</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">Social</h4>
+	<div class="widget-social__content widget__content">
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Twitter" rel="noopener noreferrer" href="https://twitter.com/@enRdados" target="_blank">
+				<svg class="widget-social__link-icon icon icon-twitter" width="24" height="24" viewBox="0 0 384 312"><path d="m384 36.9c-14.1 6.3-29.3 10.5-45.2 12.4 16.3-9.7 28.8-25.2 34.6-43.6-15.2 9-32.1 15.6-50 19.1-14.4-15.2-34.9-24.8-57.5-24.8-43.5 0-78.8 35.3-78.8 78.8 0 6.2.7 12.2 2 17.9-65.5-3.3-123.5-34.6-162.4-82.3-6.7 11.6-10.6 25.2-10.6 39.6 0 27.3 13.9 51.4 35 65.6-12.9-.4-25.1-4-35.7-9.9v1c0 38.2 27.2 70 63.2 77.2-6.6 1.8-13.6 2.8-20.8 2.8-5.1 0-10-.5-14.8-1.4 10 31.3 39.1 54.1 73.6 54.7-27 21.1-60.9 33.7-97.8 33.7-6.4 0-12.6-.4-18.8-1.1 34.9 22.4 76.3 35.4 120.8 35.4 144.9 0 224.1-120 224.1-224.1 0-3.4-.1-6.8-.2-10.2 15.4-11.1 28.7-25 39.3-40.8z"/></svg>
+				<span>Twitter</span>
+			</a>
+		</div>
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="GitHub" rel="noopener noreferrer" href="https://github.com/fervilber" target="_blank">
+				<svg class="widget-social__link-icon icon icon-github" width="24" height="24" viewBox="0 0 384 374"><path d="m192 0c-106.1 0-192 85.8-192 191.7 0 84.7 55 156.6 131.3 181.9 9.6 1.8 13.1-4.2 13.1-9.2 0-4.6-.2-16.6-.3-32.6-53.4 11.6-64.7-25.7-64.7-25.7-8.7-22.1-21.3-28-21.3-28-17.4-11.9 1.3-11.6 1.3-11.6 19.3 1.4 29.4 19.8 29.4 19.8 17.1 29.3 44.9 20.8 55.9 15.9 1.7-12.4 6.7-20.8 12.2-25.6-42.6-4.8-87.5-21.3-87.5-94.8 0-20.9 7.5-38 19.8-51.4-2-4.9-8.6-24.3 1.9-50.7 0 0 16.1-5.2 52.8 19.7 15.3-4.2 31.7-6.4 48.1-6.5 16.3.1 32.7 2.2 48.1 6.5 36.7-24.8 52.8-19.7 52.8-19.7 10.5 26.4 3.9 45.9 1.9 50.7 12.3 13.4 19.7 30.5 19.7 51.4 0 73.7-44.9 89.9-87.7 94.6 6.9 5.9 13 17.6 13 35.5 0 25.6-.2 46.3-.2 52.6 0 5.1 3.5 11.1 13.2 9.2 76.2-25.5 131.2-97.3 131.2-182 0-105.9-86-191.7-192-191.7z"/></svg>
+				<span>GitHub</span>
+			</a>
+		</div>
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Email" href="mailto:fervilber@gamil.com">
+				<svg class="widget-social__link-icon icon icon-mail" width="24" height="24" viewBox="0 0 24 24"><path d="M0 3h24v18H0zm2 16h20V7l-10 6L2 7zM22 5H2l10 6z"/></svg>
+				<span>fervilber@gamil.com</span>
+			</a>
+		</div>
+
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Youtube"  rel="noopener noreferrer" href="https://www.youtube.com/@fervil846" target="_blank">
+				<span>Youtube</span>
+			</a>
+		</div>
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Mi web"  rel="noopener noreferrer" href="http://gritos.org" target="_blank">
+				<span>Mi web</span>
+			</a>
+		</div>
+		
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/pajarracos/tags/blog/" title="Blog">Blog</a>
+		<a class="widget-taglist__link widget__link btn" href="/pajarracos/tags/hugo/" title="Hugo">Hugo</a>
+		<a class="widget-taglist__link widget__link btn" href="/pajarracos/tags/programacion/" title="Programacion">Programacion</a>
+		<a class="widget-taglist__link widget__link btn" href="/pajarracos/tags/programaci%C3%B3n/" title="Programación">Programación</a>
+		<a class="widget-taglist__link widget__link btn" href="/pajarracos/tags/python/" title="Python">Python</a>
+		<a class="widget-taglist__link widget__link btn" href="/pajarracos/tags/r/" title="R">R</a>
+		<a class="widget-taglist__link widget__link btn" href="/pajarracos/tags/youtube/" title="Youtube">Youtube</a>
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2025 G.Vil.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/pajarracos/js/menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+    "pasteImage.basePath": "${projectRoot}/static/img",
+    "pasteImage.insertPattern": "${imageSyntaxPrefix}${imageFilePath}${imageSyntaxSuffix}",
+    "pasteImage.namePrefix": "clip_",
+    "pasteImage.path": "${projectRoot}/static/img/",
+    "pasteImage.prefix": "../../img/"
+}

@@ -22,12 +22,5 @@
       <guid>http://localhost:1313/pajarracos/post/2024-09-16_youtube/</guid>
       <description>Programa para descargar videos de Youtube Supongo que alguna vez habreis necesitado descargar algún video de YouTube, ya sea un podcast interesante, o un video musical para escucharlo en otro momento sin anuncios o para tenerlo guardado. Estoy seguro que habeis pasado un buen rato buscando alguna herramienta para descargar estos videos, hay algunas web que funcionan, pero la mitad son puro fake.&#xA;Pues bien, vamos a ver una solución sencilla para hacer esto desde Python con la librería pytubefix.</description>
     </item>
-    <item>
-      <title>Un RAG con python</title>
-      <link>http://localhost:1313/pajarracos/post/2024-08-21_rag/</link>
-      <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pajarracos/post/2024-08-21_rag/</guid>
-      <description>Hacer un RAG local Vamos a empezar este blog, y llenarlo de cosas interesantes&amp;hellip;.la idea primera es dejar constancia de los pasos para crear proyectos chulos y este es uno que llevo tiempo detrás, de hecho ya hice alguna cosilla super chula el año pasado cuando empezó todo esto de la IA. entonces fue mucho más dificil, no había tanta información, ni tanto youtuber creando contenido de esto, y aún así se podían hacer cosillas curiosas.</description>
-    </item>
   </channel>
 </rss>
