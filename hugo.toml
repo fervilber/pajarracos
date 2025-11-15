@@ -59,3 +59,8 @@ theme = 'Mainroad'
   [Params.widgets.search.input]
     name = "sitesearch"
     pre = ""
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
