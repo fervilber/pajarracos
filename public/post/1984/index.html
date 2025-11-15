@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head><script src="/pajarracos/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=pajarracos/livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Instrucciones - MY flamante blog</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:url" content="http://localhost:1313/pajarracos/post/1984/">
+  <meta property="og:site_name" content="MY flamante blog">
+  <meta property="og:title" content="Instrucciones">
+  <meta property="og:description" content="Instrucciones para empezar con el blog Este es un post especial, porque quiero probar a ver qué diablos pasa cuando renombro y canto con las sirenas en la playa de san peter. Nada y la realidad es que nada de esto sería real, si no hubiera grifos volando ahora ismo por mi ventana.
+cómo hacer el blog con HUGO en github pages Bueno, la cosa siempre es más dificil de lo que parece, pero voy a intentar poner todo el proceso claro.">
+  <meta property="og:locale" content="es">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2024-01-14T07:07:07+01:00">
+    <meta property="article:modified_time" content="2024-01-14T07:07:07+01:00">
+
+		
+  <meta itemprop="name" content="Instrucciones">
+  <meta itemprop="description" content="Instrucciones para empezar con el blog Este es un post especial, porque quiero probar a ver qué diablos pasa cuando renombro y canto con las sirenas en la playa de san peter. Nada y la realidad es que nada de esto sería real, si no hubiera grifos volando ahora ismo por mi ventana.
+cómo hacer el blog con HUGO en github pages Bueno, la cosa siempre es más dificil de lo que parece, pero voy a intentar poner todo el proceso claro.">
+  <meta itemprop="datePublished" content="2024-01-14T07:07:07+01:00">
+  <meta itemprop="dateModified" content="2024-01-14T07:07:07+01:00">
+  <meta itemprop="wordCount" content="964">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/pajarracos/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/pajarracos/favicon.ico">
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/pajarracos/" title="MY flamante blog" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">MY flamante blog</div>
+					
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Instrucciones</h1>
+			
+		</header>
+		
+<div class="post__toc toc">
+	<div class="toc__title">Page content</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+  <ul>
+    <li><a href="#nada">Nada</a></li>
+    <li><a href="#cómo-hacer-el-blog-con-hugo-en-github-pages">cómo hacer el blog con HUGO en github pages</a></li>
+    <li><a href="#inicializar-git">inicializar GIT</a>
+      <ul>
+        <li><a href="#para-crear-un-nuevo-post-con-código">Para crear un nuevo post con código</a></li>
+        <li><a href="#configuracion-de-theme">Configuracion de theme</a></li>
+      </ul>
+    </li>
+    <li><a href="#publicar-el-sitio-en-github">Publicar el sitio en github</a></li>
+    <li><a href="#actions-en-github">actions en github</a></li>
+  </ul>
+</nav>
+	</div>
+</div><div class="content post__content clearfix">
+			<h1 id="instrucciones-para-empezar-con-el-blog">Instrucciones para empezar con el blog</h1>
+<p>Este es un post especial, porque quiero probar a ver qué diablos pasa cuando renombro y canto con las sirenas en la playa de san peter.
+<img src="https://static.wikia.nocookie.net/mitologiagriega/images/5/57/Grifo.png/revision/latest?cb=20140630222640&amp;path-prefix=es" alt=""></p>
+<h2 id="nada">Nada</h2>
+<p>y la <em>realidad</em> es que nada de esto sería real, si no hubiera grifos volando ahora ismo por mi ventana.</p>
+<h2 id="cómo-hacer-el-blog-con-hugo-en-github-pages">cómo hacer el blog con HUGO en github pages</h2>
+<p>Bueno, la cosa siempre es más dificil de lo que parece, pero voy a intentar poner todo el proceso claro.
+en primer lugar me he instalado HUGO en mi PC usando <strong>winget</strong> de windows, que básicamente ha sido abrir un terminal en bash y poner esto:</p>
+<pre tabindex="0"><code>winget install Hugo.Hugo.Extended
+</code></pre><p>Así se ha instalado y ocupa poco unos 30 mg, mucho menos que jekyll.
+Después he abierto un terminal con git bash que ya lo tenía intalado y me voy a una carpeta donde quiero hacer el primer blog.
+Sigo las instrucciones de esta web <a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a></p>
+<p>Y es que una vez en la carpeta elegida pongo esto, ya que la carpeta que quiero crear se llama blog.</p>
+<pre tabindex="0"><code>hugo new site blog
+</code></pre><p>Luego me voy a la carpeta con esto:</p>
+<p><code>cd quickstart</code></p>
+<h2 id="inicializar-git">inicializar GIT</h2>
+<p>Ahora toca iniciar git en local para ello hacemos lo siguiente desde el terminal:</p>
+<p><code>git init</code></p>
+<p>En HUGO hay que seleccionar una plantilla si queremos cambiar la que viene por defecto, para ello podemos hacer esto que en mi caso es para usar la plantilla Mainroad de vinux</p>
+<p><code>git submodule add https://github.com/Vimux/Mainroad themes/Mainroad</code></p>
+<p>Con esto copiamos la plantilla en local a la carpeta de themes local y ya la podemos usar.
+hay que añadir en el fichero <code>hugo.toml</code> una linea qie ponga <code>theme = Mainroad</code>.</p>
+<p>Para probar la web en local se puede poner en el terminal esto y se ejecuta el servidor:</p>
+<p><code>hugo server</code></p>
+<p>en el terminal dice la dirección para ver la web que será algo así como:</p>
+<p><code>localhost:1313</code></p>
+<h3 id="para-crear-un-nuevo-post-con-código">Para crear un nuevo post con código</h3>
+<p>basta con hacer esto:</p>
+<p><code>hugo new content content/post/mi-primer-post.md</code></p>
+<p>con esto nos crea un fichero en el directorio post que es donde debemos ponerlos con el encabezado simple .
+Aunque posteriormente podemos copiar y pegar un plantilla que tengamos por ahí. Una cosa importante es eque mientras la linea de <em>draft=true</em> este así el post no se publica, para que se publique hay que cambiarlo a false.</p>
+<p>Para crear las web y verla se puede hacer con este comando:</p>
+<p><code>hugo server -D</code></p>
+<p>aunque si queremos ver las webs de borrador, las de draft=true pondemos hacer:</p>
+<p><code>hugo server --buildDrafts</code>
+<code>hugo server -D</code></p>
+<h3 id="configuracion-de-theme">Configuracion de theme</h3>
+<p>Para configurar todas las multiples opciones que tiene la plantilla hay que cambiar el fichero hugo.toml
+y una cosa importante es poner la baseurl</p>
+<pre tabindex="0"><code>baseURL = &#39;https://fervilber.github.io/pajarracos/&#39;
+languageCode = &#39;es&#39;
+title = &#39;MY flamante blog&#39;
+theme = &#39;Mainroad&#39;
+</code></pre><h2 id="publicar-el-sitio-en-github">Publicar el sitio en github</h2>
+<p>Para publicar hay que hacer primero hacer el <code>hugo</code> para imprimir todas las paginas estáticas esto se llama deploy.
+En github se debe hacer con actions</p>
+<p>así que antes hay que crear el sitio en github de cero y enlazar el origen de a esto,.</p>
+<p>Una vez creado el repo en github nos vamos al local y enlazamos con esto:</p>
+<pre tabindex="0"><code>git status
+git add . 
+git commit -m &#34;Nuevo blog&#34;
+git remote add origin https://github.com/fervilber/pajarracos.git
+git push -u origin master
+</code></pre><p>Cuando hacemos cambios en local, siempre antes haremos un git pull para enlazar con github, despues hacemos los cambios y tras eso hay que hacer otra vez un git add ., y commit u por ultimo el push</p>
+<h2 id="actions-en-github">actions en github</h2>
+<p>para que github publique esta web hay que hacer un deploy y antes ir a configuración: pages y cambiar  deploy from the branch a <strong>GitHub Actions</strong>
+<img src="https://images.prismic.io/staticmania/60bcb6cc-bed4-4cce-bbae-ef42590c7ad4_Screenshot+2023-09-04+160103.png?auto=compress,format" alt=""></p>
+<p>esto lo explica bien aquí: <a href="https://staticmania.com/blog/deploy-your-hugo-website-on-github-pages">https://staticmania.com/blog/deploy-your-hugo-website-on-github-pages</a></p>
+<p>Al hacer esto el mismo github te recomienda unas actions justo debajo, si no está Hugo, hay que buscarla en la opcion que dan. y al final esto crea una nueva carpeta en el directorio de trabajo llamada  <code>.github/workflows</code> donde crea un fichero llamado <code>hugo.yml</code> . el que me ha creado a mi es este y funciona:</p>
+<pre tabindex="0"><code># Sample workflow for building and deploying a Hugo site to GitHub Pages
+name: Deploy Hugo site to Pages
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: [&#34;main&#34;]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: &#34;pages&#34;
+  cancel-in-progress: false
+
+# Default to bash
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.128.0
+    steps:
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          &amp;&amp; sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Install Node.js dependencies
+        run: &#34;[[ -f package-lock.json || -f npm-shrinkwrap.json ]] &amp;&amp; npm ci || true&#34;
+      - name: Build with Hugo
+        env:
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          HUGO_ENVIRONMENT: production
+        run: |
+          hugo \
+            --minify \
+            --baseURL &#34;${{ steps.pages.outputs.base_url }}/&#34;
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+</code></pre><p>cada vez que hagamos un commit se ejecutará automáticamente esta action que podemos ver en la pestalña correspondiente y si falla podemos leer por qué. A mi me ha fallado varias veces hasta que he actualizado el theme de HUGO a la ultima versión.</p>
+
+		</div>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<div class="authorbox__header">
+		<span class="authorbox__name">About F.Vil</span>
+	</div>
+	<div class="authorbox__description">
+		guillermo Villalba loco de atar.
+	</div>
+</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/pajarracos/post/mi-primer-post/" rel="next">
+			<span class="pager__subtitle">Next&thinsp;»</span>
+			<p class="pager__title">Mi Primer Post</p>
+		</a>
+	</div>
+</nav>
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<input class="widget-search__field" type="search" placeholder="Search…" value="" name="q" aria-label="Search…">
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="http://localhost:1313/pajarracos/">
+	</form>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/pajarracos/post/2024-07-08_hola/">Hola</a></li>
+			<li class="widget__item"><a class="widget__link" href="/pajarracos/post/mi-primer-post/">Mi Primer Post</a></li>
+			<li class="widget__item"><a class="widget__link" href="/pajarracos/post/1984/">Instrucciones</a></li>
+		</ul>
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2024 G.Vil.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/pajarracos/js/menu.js"></script>
+</body>
+</html>

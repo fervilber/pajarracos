@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Pajarracos</title>
+    <link>http://localhost:1313/pajarracos/post/</link>
+    <description>Recent content in Posts on Pajarracos</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 09 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/pajarracos/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instrucciones para crear un blog 1</title>
+      <link>http://localhost:1313/pajarracos/post/2025-05-09/</link>
+      <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pajarracos/post/2025-05-09/</guid>
+      <description>Vamos a recopilar lo que puse en los primeros post ya que he querido volver a montar un blog para un amigo y me hacía falta refrescar.&#xA;Empezar un blog completamente gratis. Parte 1 Este es un post especial, porque quiero empezar un blog desde cero usando las herramientas más modernas y actuales. El objetivo es montar la estructura de blog rápidamente, y que lo montemos sin gastar un euro en servidores usando solo cosas que se encuentran en la comunidad web desde hace años, que además usa la última tecnología, la más rápida y como veremos una de las formas más sencillas de empezar a crear contenido web y hacernos un nombre.</description>
+    </item>
+    <item>
+      <title>Asistente IA para programar en VSCode</title>
+      <link>http://localhost:1313/pajarracos/post/2025-04-13_vscode/</link>
+      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pajarracos/post/2025-04-13_vscode/</guid>
+      <description>Guía Paso a Paso para usar un asistente de Inteligencia Artificial en Visual Studio Code Introducción ¿Buscas una forma de utilizar la inteligencia artificial para ayudarte en tu trabajo sin gastar dinero? Este tutorial te mostrará cómo configurar Visual Studio Code con la extensión Roo Code y conectarla al modelo de inteligencia artificial Gemini 2.5 de Google totalmente gratis!. Esta es una excelente alternativa a herramientas de pago como Cursor o GitHub Copilot.</description>
+    </item>
+    <item>
+      <title>Obtener la transcripción de videos de YouTube</title>
+      <link>http://localhost:1313/pajarracos/post/2024-09-28_youtube_trans/</link>
+      <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pajarracos/post/2024-09-28_youtube_trans/</guid>
+      <description>En el post anterior explicaba una opción para descargar - con código python - el video (mp4) a partir de un enlace (url) de YouTube, usando la librería pytubefix.&#xA;Eso de tener el video en el disco duro está bien, pero últimamente estoy intentando hacer RAG locales usando modelos LLM de inteligencia artificial usando Ollama y AnythingLLM. Para estos casos es súper util tener ficheros de texto con conocimiento específico de un tema en soporte local sobre los que se pasa un modelo de embbedding.</description>
+    </item>
+    <item>
+      <title>Descargar videos de YouTube con Python</title>
+      <link>http://localhost:1313/pajarracos/post/2024-09-16_youtube/</link>
+      <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pajarracos/post/2024-09-16_youtube/</guid>
+      <description>Programa para descargar videos de Youtube Supongo que alguna vez habreis necesitado descargar algún video de YouTube, ya sea un podcast interesante, o un video musical para escucharlo en otro momento sin anuncios o para tenerlo guardado. Estoy seguro que habeis pasado un buen rato buscando alguna herramienta para descargar estos videos, hay algunas web que funcionan, pero la mitad son puro fake.&#xA;Pues bien, vamos a ver una solución sencilla para hacer esto desde Python con la librería pytubefix.</description>
+    </item>
+    <item>
+      <title>Instrucciones para crear un blog 2</title>
+      <link>http://localhost:1313/pajarracos/post/2024-08-08/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pajarracos/post/2024-08-08/</guid>
+      <description>Parte 2 Continuamos con las instrucciones para crear un blog moderno y rápido con tecnología actual, que iniciamos en el post anterior, donde vimos como instalar HUGO y cómo empezar a editar nuestro blog en local en las carpetas y ficheros de nuestro PC. Ahora toca subirlo a la web y para eso usaremos gitHub.&#xA;Imagino que ya has tocado un poco con el blog en local, que has hecho varios post de prueba en la carpeta content y que cuando haces en un terminal hugo server de tu blog se ve todo bien en el navegador.</description>
+    </item>
+    <item>
+      <title>Instrucciones para crear un blog 1</title>
+      <link>http://localhost:1313/pajarracos/post/2024-07-14_instrucciones/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pajarracos/post/2024-07-14_instrucciones/</guid>
+      <description>Empezar un blog completamente gratis. Parte 1 Este es un post especial, porque quiero empezar un blog desde cero usando las herramientas más modernas y actuales. El objetivo es montar la estructura de blog rápidamente, y que lo montemos sin gastar un euro en servidores usando solo cosas que se encuentran en la comunidad web desde hace años, que además usa la última tecnología, la más rápida y como veremos una de las formas más sencillas de empezar a crear contenido web y hacernos un nombre.</description>
+    </item>
+    <item>
+      <title>El primer paso</title>
+      <link>http://localhost:1313/pajarracos/post/2024-07-08_01/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pajarracos/post/2024-07-08_01/</guid>
+      <description>Empezamos Hoy empezamos un nuevo blog, al que vamos a llamar &amp;ldquo;pajarracos&amp;rdquo;, en honor a mis 4 hijos que aún siguen en el nido, pero para los que debo dejar muchas lecciones. En este Blog voy a intentar ordenar muchas ideas y proyectos que tengo en mente, el tener que escribir sobre ellos me ayuda a fijar ideas y centrarme para ir resolviendo los que quedan pendientes.&#xA;Trataremos muchos temas, o esa es la iea inicial.</description>
+    </item>
+  </channel>
+</rss>
