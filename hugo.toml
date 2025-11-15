@@ -1,0 +1,61 @@
+baseURL = 'https://fervilber.github.io/pajarracos/'
+languageCode = 'es'
+title = 'Pajarracos'
+theme = 'Mainroad'
+
+[Author]
+  name = "F.VilBer"
+  bio = "Ciudadano Vil"
+  avatar = "img/male-avatar.png"
+
+[Params]
+  description = "bitácora de proyectos e ideas de pájaro"
+  copyright = "G.Vil"
+  opengraph = true
+  schema = true # Enable Schema
+  twitter_cards = false
+  readmore = true # Show "Read more" button in list if true
+  authorbox = true
+  toc = true # Enable Table of Contents
+  pager = true
+  post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
+  mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "2006-01-02" # Change the format of dates 
+
+[Params.sidebar]
+  home = "right"   # Configure layout for home page
+  list = "right"   # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "social", "taglist", "languages"]
+
+  [Params.logo]
+  image = "img/pajarracos1.jpg" # Logo image. Path relative to "static"
+  subtitle = "Bitácora de proyectos e ideas" # Logo subtitle
+
+  [Params.widgets.social]
+  cached = false # activate cache if true
+  # Enable parts of social widget
+  twitter = "@enRdados"
+  #linkedin = "username"
+  #telegram = "username"
+  github = "fervilber"
+  email = "fervilber@gamil.com"
+
+  # Custom social links
+[[Params.widgets.social.custom]]
+  title = "Youtube"
+  url = "https://www.youtube.com/@fervil846"
+  #icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
+  rel = "noopener noreferrer" # Set to false to remove the rel attribute
+
+[[Params.widgets.social.custom]]
+  title = "Mi web"
+  url = "http://gritos.org"
+
+[Params.widgets.search]
+  cached = false # activate cache if true
+  url = "https://google.com/search"
+  [Params.widgets.search.input]
+    name = "sitesearch"
+    pre = ""
