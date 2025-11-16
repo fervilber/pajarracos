@@ -6,14 +6,21 @@
     <description>Recent content in Blog on Pajarracos</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/pajarracos/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Prueba de pagos con Bitcoin</title>
+      <title>Hugo Shortcodes</title>
+      <link>http://localhost:1313/pajarracos/post/2025-11-16_shortcodes/</link>
+      <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pajarracos/post/2025-11-16_shortcodes/</guid>
+      <description>Shortcodes, mejorando el Blog En el anterior post en el que expliqué cómo hacer un botón de pago y cobro en BTC desde el blog tuve bastantes problemas para hacer un iframe o ventana desde el mismo texto del blog.&#xA;Al final, estoy escribiendo un blog estático con HUGO, y por medidas de seguridad los parámetros normales no dejan ejecutar ni javascript ni código HTML que pueda ser potencialmente peligroso. Y para solucionar estas cosas me enteré indirectamente de los shortcodes y de las ventajs que ofrecen de modularidad y estandarización para la programación y escritura de este mismo blog.</description>
+    </item>
+    <item>
+      <title>Cobros y Pagos con Bitcoin</title>
       <link>http://localhost:1313/pajarracos/post/2025-11-15_btcpay/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/pajarracos/post/2025-11-15_btcpay/</guid>
-      <description>Cobros y pagos con BTC simple He descubierto una web fantástica que permite recibir pagos con BTC de manera sencilla y transparente por una comision del 1,5%</description>
+      <description>Cobros y pagos con BTC la forma simple He descubierto una web fantástica que permite recibir pagos con BTC de manera sencilla y transparente por una comision del 1,5%.&#xA;Se trata de https://paywithflash.com/ un web que hace fácil algo que puede parecer tan complejo como montar una tienda de productos con cobros y pagos en BTC.&#xA;Quizás estareis pensando que es muy fácil poner una dirección de Bitcoin para que si alguien quiere pagar que lo haga, pero esto es una ventana indiscreta a tu cartera, nunca se debe reutilizar una dirección y menos dejar una pública diciendo a todo el mundo que es la tuya.</description>
     </item>
     <item>
       <title>Instrucciones para crear un blog 3</title>

@@ -1,0 +1,4 @@
+<button onclick="window.open('{{ .Get "url" }}', '_blank', 'width=800,height=600,scrollbars=yes,resizable=yes')" style="padding: 12px 24px; font-size: 16px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
+  {{ .Get "text" | default "Pagar con Flash" }}
+</button>
+

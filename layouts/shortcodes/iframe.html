@@ -1,0 +1,12 @@
+<iframe 
+  width="{{ .Get "width" | default "560" }}" 
+  height="{{ .Get "height" | default "315" }}" 
+  src="{{ .Get "src" }}" 
+  title="{{ .Get "title" | default "Embedded content" }}"
+  frameborder="{{ .Get "frameborder" | default "0" }}"
+  allow="{{ .Get "allow" | default "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" }}"
+  referrerpolicy="{{ .Get "referrerpolicy" | default "strict-origin-when-cross-origin" }}"
+  {{ if .Get "allowfullscreen" }}allowfullscreen{{ end }}
+  style="{{ .Get "style" }}">
+</iframe>
+
