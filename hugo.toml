@@ -6,7 +6,7 @@ theme = 'Mainroad'
 [Author]
   name = "F.VilBer"
   bio = "Ciudadano Vil"
-  avatar = "img/male-avatar.png"
+  avatar = "img/avatar_vilber01.png"
 
 [Params]
   description = "bitácora de proyectos e ideas de pájaro"
@@ -36,22 +36,22 @@ theme = 'Mainroad'
   [Params.widgets.social]
   cached = false # activate cache if true
   # Enable parts of social widget
-  twitter = "@enRdados"
+  twitter = "@funnymathplanet"
   #linkedin = "username"
   #telegram = "username"
-  github = "fervilber"
-  email = "fervilber@gamil.com"
+  github = "funnymathplanet"
+  email = "funnymathplanet@gritos.org"
 
   # Custom social links
 [[Params.widgets.social.custom]]
   title = "Youtube"
-  url = "https://www.youtube.com/@fervil846"
+  url = "https://www.youtube.com/@funnymathplanet"
   #icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
   rel = "noopener noreferrer" # Set to false to remove the rel attribute
 
 [[Params.widgets.social.custom]]
-  title = "Mi web"
-  url = "http://gritos.org"
+  title = "enRdados"
+  url = "https://enrdados.netlify.app/"
 
 [Params.widgets.search]
   cached = false # activate cache if true

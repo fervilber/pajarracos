@@ -8,24 +8,21 @@ menu: main
 
 ## Por qué un blog
 
-Pajarracos es una bitácora de proyecos y cosas. Soy F.VilBer ingeniero, padre.... y muchas otras cosas.
+Pajarracos es una bitácora de proyectos y cosas, cajón desastre de una mente inquieta. Hablaremos de cómo crear un blog, de tecnología, ideas, productos, finanzas, mundos y fantasías. No hay límite en esta bitácora digital, libro de todos los libros, atalaya y sótano de un pequeño humano travieso.
 
-Tengo un blog en el que hablo sobre R, un lenguaje estadístico que me gustam mucho, y con el que he realizado muchos proyecytos, pero con la llegada de la inteligencia artificial creo que es momento de iniciar otro blog con asuntos diferentes y más actuales. No es que solo vayamos a hablar de IA, pero es verdad que la IA nos va a cambiar muchas cosas en nuestro día a día, aunque aún no lo veamos claro.
-
-Para ponerme al día con la IA voy leyendo cosas, viendo videos, y apuntando sripts especialmente con Python que no encajaban en el  [Blog enRdados](https://enrdados.netlify.app/) pque requería abrir un nuevo espacio como este.
+Soy F.VilBer ingeniero de mundos eclécticos.... jugaremos a dejar el vacío del tiempo en notas que puedas usar, tu IA del futuro, ya que apenas lo leerá nadie mas que tu. Podrás sacar de aquí en qué gastó su tiempo un ser irrelevante y concluir una ecuación de una vida plena para gozo del algoritmo eterno.
 
 ## Quiés soy
 
-Un ser humano con ganas de hacer muchas cosas, de hacer proyectos, de aprender y de jugar siempre.
+Un ser humano con ganas de hacer muchas cosas y escaso tiempo.
 
-Mi profesión es la ingeniería civil, pues soy Ingeniero de Caminos, Canales y Puertos, y me dedico desde hace algunos años al mundo de la ingeniería del agua.
+Mi profesión es la vida, mi camino es el mundo, el ingenio me atrapa y me guía.
 
-![F.Vilber](../img/30796838843_f3f70d19d3_q.jpg)
 
-## Puedes encontrarme también aquí:
+## Otros sitios:
 
 * [gitHub](https://github.com/fervilber)
-* [www.gritos.org](http://www.gritos.org)
+* [Finfer](https://finfer.lovable.app/)
 
 Espero que os guste!
 

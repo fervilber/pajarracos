@@ -1,0 +1,8 @@
+{{- $authorName := .Params.author | default .Site.Author.name -}}
+{{- if $authorName -}}
+<div class="meta__item-author meta__item">
+	{{ partial "svg/author.svg" (dict "class" "meta__icon") -}}
+	<span class="meta__text">{{ $authorName }}</span>
+</div>
+{{- end -}}
+

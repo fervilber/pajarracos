@@ -5,8 +5,12 @@ categories = ["Blog"]
 tags = ["Hugo", "Blog"]
 draft = false
 toc   = false   # ← desactiva el TOC
+author = "Sofi"
+author_bio = "Genia del tiempo"
+author_avatar = "img/avatar_sof01.png"
 +++
 
+![](../../img/clip_2025-11-17-00-41-33_2025-11-16_shortcodes.png)
 
 # Shortcodes, mejorando el Blog
 En el anterior post en el que expliqué cómo hacer un botón de pago y cobro en BTC desde el blog tuve bastantes problemas para hacer un iframe o ventana desde el mismo texto del blog.

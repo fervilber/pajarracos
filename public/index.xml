@@ -13,7 +13,7 @@
       <link>http://localhost:1313/pajarracos/post/2025-11-16_shortcodes/</link>
       <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/pajarracos/post/2025-11-16_shortcodes/</guid>
-      <description>Shortcodes, mejorando el Blog En el anterior post en el que expliqué cómo hacer un botón de pago y cobro en BTC desde el blog tuve bastantes problemas para hacer un iframe o ventana desde el mismo texto del blog.&#xA;Al final, estoy escribiendo un blog estático con HUGO, y por medidas de seguridad los parámetros normales no dejan ejecutar ni javascript ni código HTML que pueda ser potencialmente peligroso. Y para solucionar estas cosas me enteré indirectamente de los shortcodes y de las ventajs que ofrecen de modularidad y estandarización para la programación y escritura de este mismo blog.</description>
+      <description>Shortcodes, mejorando el Blog En el anterior post en el que expliqué cómo hacer un botón de pago y cobro en BTC desde el blog tuve bastantes problemas para hacer un iframe o ventana desde el mismo texto del blog.&#xA;Al final, estoy escribiendo un blog estático con HUGO, y por medidas de seguridad los parámetros normales no dejan ejecutar ni javascript ni código HTML que pueda ser potencialmente peligroso.</description>
     </item>
     <item>
       <title>Cobros y Pagos con Bitcoin</title>
@@ -83,7 +83,7 @@
       <link>http://localhost:1313/pajarracos/about.es/</link>
       <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/pajarracos/about.es/</guid>
-      <description>Por qué un blog Pajarracos es una bitácora de proyecos y cosas. Soy F.VilBer ingeniero, padre&amp;hellip;. y muchas otras cosas.&#xA;Tengo un blog en el que hablo sobre R, un lenguaje estadístico que me gustam mucho, y con el que he realizado muchos proyecytos, pero con la llegada de la inteligencia artificial creo que es momento de iniciar otro blog con asuntos diferentes y más actuales. No es que solo vayamos a hablar de IA, pero es verdad que la IA nos va a cambiar muchas cosas en nuestro día a día, aunque aún no lo veamos claro.</description>
+      <description>Por qué un blog Pajarracos es una bitácora de proyectos y cosas, cajón desastre de una mente inquieta. Hablaremos de cómo crear un blog, de tecnología, ideas, productos, finanzas, mundos y fantasías. No hay límite en esta bitácora digital, libro de todos los libros, atalaya y sótano de un pequeño humano travieso.&#xA;Soy F.VilBer ingeniero de mundos eclécticos&amp;hellip;. jugaremos a dejar el vacío del tiempo en notas que puedas usar, tu IA del futuro, ya que apenas lo leerá nadie mas que tu.</description>
     </item>
   </channel>
 </rss>
