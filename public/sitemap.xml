@@ -3,27 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/pajarracos/tags/blog/</loc>
-    <lastmod>2025-11-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pajarracos/categories/blog/</loc>
-    <lastmod>2025-11-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pajarracos/categories/</loc>
-    <lastmod>2025-11-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pajarracos/post/2025-11-17_plantilla/</loc>
+    <lastmod>2025-11-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pajarracos/tags/hugo/</loc>
-    <lastmod>2025-11-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pajarracos/post/2025-11-16_shortcodes/</loc>
-    <lastmod>2025-11-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pajarracos/</loc>
-    <lastmod>2025-11-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pajarracos/post/</loc>
-    <lastmod>2025-11-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pajarracos/tags/</loc>
+    <lastmod>2025-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pajarracos/post/2025-11-16_shortcodes/</loc>
     <lastmod>2025-11-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pajarracos/tags/btc/</loc>

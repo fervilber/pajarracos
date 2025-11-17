@@ -6,14 +6,21 @@
     <description>Recent content in Blog on Pajarracos</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 16 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/pajarracos/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hacer que varios autores firmen el Blog</title>
+      <link>http://localhost:1313/pajarracos/post/2025-11-17_plantilla/</link>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pajarracos/post/2025-11-17_plantilla/</guid>
+      <description>Modificar plantilla Mainroad Esto de programar con CURSOR es una maravilla para los que no sabemos programar, jaja!!. Digamos que algo de idea tengo, pero antes tardaba mucho en solucionar cosas que ahora con la IA tardo muy poco, y encima me lo soluciona bien.&#xA;El ultimo ejemplo que he probado es añadir a esta plantilla de Blog que uso la posibilidad de firma por varios usuarios.&#xA;El problema Llevo años usando HUGO para mis blogs, desde que lo probé me parace fantástico, no solo por la enerome cantidad de plantillas que tiene, y de que cada vez que lo miro hay más, sino también por la estructura simple, secnilla y ordenada de todo.</description>
+    </item>
     <item>
       <title>Hugo Shortcodes</title>
       <link>http://localhost:1313/pajarracos/post/2025-11-16_shortcodes/</link>
       <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/pajarracos/post/2025-11-16_shortcodes/</guid>
-      <description>Shortcodes, mejorando el Blog En el anterior post en el que expliqué cómo hacer un botón de pago y cobro en BTC desde el blog tuve bastantes problemas para hacer un iframe o ventana desde el mismo texto del blog.&#xA;Al final, estoy escribiendo un blog estático con HUGO, y por medidas de seguridad los parámetros normales no dejan ejecutar ni javascript ni código HTML que pueda ser potencialmente peligroso. Y para solucionar estas cosas me enteré indirectamente de los shortcodes y de las ventajs que ofrecen de modularidad y estandarización para la programación y escritura de este mismo blog.</description>
+      <description>Shortcodes, mejorando el Blog En el anterior post en el que expliqué cómo hacer un botón de pago y cobro en BTC desde el blog tuve bastantes problemas para hacer un iframe o ventana desde el mismo texto del blog.&#xA;Al final, estoy escribiendo un blog estático con HUGO, y por medidas de seguridad los parámetros normales no dejan ejecutar ni javascript ni código HTML que pueda ser potencialmente peligroso.</description>
     </item>
     <item>
       <title>Cobros y Pagos con Bitcoin</title>

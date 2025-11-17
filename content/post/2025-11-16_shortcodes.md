@@ -15,7 +15,7 @@ author_avatar = "img/avatar_sof01.png"
 # Shortcodes, mejorando el Blog
 En el anterior post en el que expliqué cómo hacer un botón de pago y cobro en BTC desde el blog tuve bastantes problemas para hacer un iframe o ventana desde el mismo texto del blog.
 
-Al final, estoy escribiendo un blog estático con HUGO, y por medidas de seguridad los parámetros normales no dejan ejecutar ni javascript ni código HTML que pueda ser potencialmente peligroso. Y para solucionar estas cosas me enteré indirectamente de los shortcodes y de las ventajs que ofrecen de modularidad y estandarización para la programación y escritura de este mismo blog.
+Al final, estoy escribiendo un blog estático con HUGO, y por medidas de seguridad los parámetros normales no dejan ejecutar ni javascript ni código HTML que pueda ser potencialmente peligroso. Y para solucionar estas cosas me enteré indirectamente de los shortcodes y de las ventajas que ofrecen de modularidad y estandarización para la programación y escritura de este mismo blog.
 
 # ¿qué son los shortcodes?
 Los shortcodes de Hugo son fragmentos de código reutilizables que puedes insertar dentro del contenido de tus páginas (normalmente en archivos Markdown) para generar HTML más complejo sin tener que escribirlo a mano. 
