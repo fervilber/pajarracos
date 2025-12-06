@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Pajarracos</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 17 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/pajarracos/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coding</title>
+      <link>http://localhost:1313/pajarracos/categories/coding/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pajarracos/categories/coding/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Blog</title>
       <link>http://localhost:1313/pajarracos/categories/blog/</link>
